@@ -4,7 +4,7 @@ import {Reservation} from "../../processes/ReservationList/types";
 import {ReservationListItem} from "../ReservationListItem/ReservationListItem";
 
 type ReservationListProps = {
-    reservationList: Reservation[];
+    reservationList: Partial<Reservation>[];
 }
 export const ReservationList: FC<ReservationListProps> = memo<ReservationListProps>(({ reservationList }: ReservationListProps) => {
     return (

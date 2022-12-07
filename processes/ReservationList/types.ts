@@ -5,23 +5,35 @@ export interface Reservation {
   siteType: string;
   arrival: string;
   departure: string;
-  camperInfo: CamperInfo;
-  paymentInfo: PaymentInfo;
+  camperInfo: Partial<CamperInfo>;
+  paymentInfo?: PaymentInfo;
   items?: null;
   holdIds?: null;
   status: string;
-  initiator: Initiator;
-  createUser: string;
+  initiator?: Initiator;
+  createUser?: string;
   updatedAt: string;
   createdAt: string;
-  notes?: null[] | null;
+  notes?: Note[];
   actions?: ActionsEntity[] | null;
   cost: Cost;
   sites?: SitesEntity[] | null;
   type: Type;
 }
+export interface Note {
+  note: string;
+  kind: string;
+  public: boolean;
+  user: User;
+  timestamp: string;
+}
+export interface User {
+  id: string;
+  name?: null;
+}
+
 export interface CamperInfo {
-  accountId: string;
+  accountId?: string;
   firstName?: string;
   lastName?: string;
   phoneNumber?: string;
@@ -35,8 +47,8 @@ export interface CamperInfo {
 }
 export interface Guests {
   adults: number;
-  children: string;
-  pets: string;
+  children: number;
+  pets: number;
 }
 export interface Address {
   address1: string;
@@ -53,33 +65,7 @@ export interface PaymentInfo {
   payment: number;
   payments?: null[] | null;
   invoices: Invoices;
-  paid: number;
-}
-export interface Invoice {
-  _id: string;
-  active: boolean;
-  settled: boolean;
-  paid: boolean;
-  items?: ItemsEntityOrAddLineItem[] | null;
-  propertyId: string;
-  organizationId: string;
-  payments?: null[] | null;
-  taxes?: null[] | null;
-  dueAt: string;
-  feelessTotal: number;
-  fee: number;
-  feeSettled: boolean;
-  subtotal: number;
-  total: number;
-  remainingBalance: number;
-  itemTaxes: number;
-  otherTaxes: number;
-  appliedTaxes: AppliedTaxesOrRates;
-  itemTaxBreakdown?: ItemTaxBreakdownEntity[] | null;
-  accountId: string;
-  updatedAt: string;
-  createdAt: string;
-  history?: HistoryEntity[] | null;
+  paid?: number;
 }
 export interface ItemsEntityOrAddLineItem {
   amount: number;
@@ -109,7 +95,7 @@ export interface ItemTaxBreakdownEntity {
 }
 export interface HistoryEntity {
   time: string;
-  who?: null;
+  who?: Who | null;
   addLineItem?: ItemsEntityOrAddLineItem | null;
   updatedTotal?: UpdatedTotal | null;
   addTaxes?: null[] | null;
@@ -126,7 +112,7 @@ export interface UpdatedTotal {
   depositTax?: null;
   depositTotal?: null;
 }
-export type Invoices = Record<string, Invoice[]>;
+export type Invoices = Record<string, Partial<Invoice> | undefined>;
 
 export interface Invoice {
   _id: string;
@@ -136,7 +122,7 @@ export interface Invoice {
   accountId: string;
   paid: boolean;
   items?: ItemsEntityOrAddLineItem[] | null;
-  payments?: null[] | null;
+  payments?: unknown;
   fee: number;
   feeSettled: boolean;
   updatedAt: string;
@@ -151,10 +137,10 @@ export interface Invoice {
   otherTaxes: number;
   remainingBalance: number;
   subtotal: number;
-  taxes?: null[] | null;
+  taxes?: unknown;
   total: number;
-  link: Link;
-  connectAccount: string;
+  link?: Link;
+  connectAccount?: string;
 }
 
 export interface Who {
@@ -207,13 +193,13 @@ export interface SitesEntity {
   sewage: boolean;
   driverSlide: boolean;
   passengerSlide: boolean;
-  backIn: boolean;
+  backIn?: boolean;
   images?: ImagesEntity[] | null;
   rates: AppliedTaxesOrRates;
   propertyId: string;
   updatedAt: string;
   createdAt: string;
-  hidden: boolean;
+  hidden?: boolean;
   type: Type;
 }
 export interface ImagesEntity {

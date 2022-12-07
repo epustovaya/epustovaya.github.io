@@ -3,7 +3,7 @@ import classes from './ReservationListItem.module.scss';
 import {Reservation} from "../../processes/ReservationList/types";
 
 type ReservationListItemProps = {
-    reservation: Reservation
+    reservation: Partial<Reservation>
 }
 export const ReservationListItem: FC<ReservationListItemProps> = memo<ReservationListItemProps>(({ reservation }: ReservationListItemProps) => {
     const { camperInfo, _id: id, arrival, departure, status, type, sites } = reservation || {};

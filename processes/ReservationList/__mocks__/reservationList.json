@@ -16,8 +16,8 @@
         "email": "",
         "guests": {
           "adults": 2,
-          "children": "",
-          "pets": ""
+          "children": 0,
+          "pets": 0
         },
         "address": {
           "address1": "",
@@ -3573,8 +3573,8 @@
         "accountId": "63651f29e67d2a4dfa046a00",
         "guests": {
           "adults": 3,
-          "children": "",
-          "pets": ""
+          "children": 0,
+          "pets": 0
         },
         "goodSamMembership": {
           "goodSamId": ""
