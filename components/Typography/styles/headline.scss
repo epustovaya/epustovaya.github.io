@@ -1,0 +1,58 @@
+.headline {
+  font-style: normal;
+  font-weight: bold;
+  color: $c-tertiary;
+
+  &--normal {
+    font-weight: normal;
+  }
+
+  &--xxl {
+    @include h1-default;
+  }
+
+  &--xl {
+    @include h2-default;
+  }
+
+  &--l {
+    padding: 32px 0 16px 0;
+    font-size: 28px;
+    line-height: 42px;
+
+    @media (min-width: $media-s) and (max-width: $media-l) {
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    @media (min-width: $media-l) {
+      font-size: 40px;
+      line-height: 54px;
+    }
+  }
+
+  &--m {
+    @include h3-default;
+  }
+
+  &--m-fixed {
+    @include h3-default-fixed;
+  }
+
+  &--s {
+    @include h4-default;
+  }
+
+  &--t-0 {
+    padding-top: 0;
+  }
+
+  &--b-0 {
+    padding-bottom: 0;
+  }
+
+  &--nop {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

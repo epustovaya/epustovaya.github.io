@@ -1,0 +1,542 @@
+{
+  "_id": "624f4aa74dd19f002e66159d",
+  "propertyId": "5ffce942b21f15002662241e",
+  "siteIds": [
+    "5ffcee12b21f150026622434"
+  ],
+  "siteType": "5ffcec0fb21f15002662242b",
+  "arrival": "2022-04-15T19:00:00.000Z",
+  "departure": "2022-04-19T18:59:00.000Z",
+  "camperInfo": {
+    "accountId": "",
+    "firstName": "Ely",
+    "lastName": "Bourland",
+    "phoneNumber": "",
+    "email": "",
+    "guests": {
+      "adults": 2,
+      "children": "",
+      "pets": ""
+    },
+    "address": {
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "postalCode": "",
+      "country": "CA"
+    },
+    "privateNote": "",
+    "publicNote": "",
+    "rigType": "Travel Trailer",
+    "rigLength": 12
+  },
+  "paymentInfo": {
+    "paymentAmount": null,
+    "cost": {
+      "cost": 210,
+      "invoice": {
+        "_id": "624f4aa74dd19f002e66159f",
+        "active": true,
+        "settled": false,
+        "paid": false,
+        "items": [
+          {
+            "amount": 50,
+            "description": "Days (B)",
+            "category": "reservation",
+            "quantity": 4,
+            "options": {
+              "siteTypeId": "5ffcec0fb21f15002662242b",
+              "days": true
+            },
+            "taxes": [
+              {
+                "type": "percentage",
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "name": "GST",
+                "value": 0.05
+              }
+            ],
+            "appliedTaxes": {
+              "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+            }
+          }
+        ],
+        "propertyId": "5ffce942b21f15002662241e",
+        "organizationId": "586b2b5e8dc42564c94af108",
+        "payments": [],
+        "taxes": [],
+        "dueAt": "2022-04-15T19:00:00.000Z",
+        "feelessTotal": 210,
+        "fee": 0,
+        "feeSettled": false,
+        "subtotal": 200,
+        "total": 210,
+        "remainingBalance": 210,
+        "itemTaxes": 10,
+        "otherTaxes": 0,
+        "appliedTaxes": {},
+        "itemTaxBreakdown": [
+          {
+            "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+            "value": 10
+          }
+        ],
+        "accountId": "624f4aa74dd19f002e66159e",
+        "updatedAt": "2022-04-07T20:33:43.930Z",
+        "createdAt": "2022-04-07T20:33:43.886Z",
+        "history": [
+          {
+            "time": "2022-04-07T20:33:43.920Z",
+            "who": null,
+            "addLineItem": {
+              "amount": 50,
+              "description": "Days (B)",
+              "category": "reservation",
+              "quantity": 4,
+              "options": {
+                "siteTypeId": "5ffcec0fb21f15002662242b",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+              }
+            }
+          },
+          {
+            "time": "2022-04-07T20:33:43.921Z",
+            "who": null,
+            "updatedTotal": {
+              "subtotal": 200,
+              "total": 210,
+              "feelessTotal": 210,
+              "itemTaxes": 10,
+              "otherTaxes": 0,
+              "remainingBalance": 210,
+              "depositSubtotal": null,
+              "depositTax": null,
+              "depositTotal": null
+            }
+          },
+          {
+            "time": "2022-04-07T20:33:43.924Z",
+            "who": null,
+            "addTaxes": []
+          }
+        ]
+      }
+    },
+    "deposit": null,
+    "payment": 210,
+    "payments": [],
+    "invoices": {
+      "624f4aa74dd19f002e66159f": {
+        "_id": "624f4aa74dd19f002e66159f",
+        "dueAt": "2022-04-15T19:00:00.000Z",
+        "active": true,
+        "settled": false,
+        "accountId": "624f4aa74dd19f002e66159e",
+        "paid": false,
+        "items": [
+          {
+            "amount": 50,
+            "description": "Days (B)",
+            "category": "reservation",
+            "quantity": 4,
+            "options": {
+              "siteTypeId": "5ffcec0fb21f15002662242b",
+              "days": true
+            },
+            "taxes": [
+              {
+                "type": "percentage",
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "name": "GST",
+                "value": 0.05
+              }
+            ],
+            "appliedTaxes": {
+              "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+            }
+          }
+        ],
+        "payments": [],
+        "fee": 0,
+        "feeSettled": false,
+        "updatedAt": "2022-04-07T20:33:44.214Z",
+        "createdAt": "2022-04-07T20:33:43.886Z",
+        "organizationId": "586b2b5e8dc42564c94af108",
+        "propertyId": "5ffce942b21f15002662241e",
+        "appliedTaxes": {},
+        "feelessTotal": 210,
+        "history": [
+          {
+            "time": "2022-04-07T20:33:43.920Z",
+            "who": null,
+            "addLineItem": {
+              "amount": 50,
+              "description": "Days (B)",
+              "category": "reservation",
+              "quantity": 4,
+              "options": {
+                "siteTypeId": "5ffcec0fb21f15002662242b",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+              }
+            }
+          },
+          {
+            "time": "2022-04-07T20:33:43.921Z",
+            "who": null,
+            "updatedTotal": {
+              "subtotal": 200,
+              "total": 210,
+              "feelessTotal": 210,
+              "itemTaxes": 10,
+              "otherTaxes": 0,
+              "remainingBalance": 210,
+              "depositSubtotal": null,
+              "depositTax": null,
+              "depositTotal": null
+            }
+          },
+          {
+            "time": "2022-04-07T20:33:43.924Z",
+            "who": null,
+            "addTaxes": []
+          },
+          {
+            "time": "2022-04-07T20:33:44.210Z",
+            "who": {
+              "userId": "6205755bfa81b60060c4c2aa",
+              "name": "Ely  Bourland"
+            },
+            "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+          }
+        ],
+        "itemTaxBreakdown": [
+          {
+            "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+            "value": 10
+          }
+        ],
+        "itemTaxes": 10,
+        "otherTaxes": 0,
+        "remainingBalance": 210,
+        "subtotal": 200,
+        "taxes": [],
+        "total": 210,
+        "link": {
+          "type": "reservation",
+          "id": "624f4aa74dd19f002e66159d"
+        },
+        "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+      }
+    },
+    "paid": 0
+  },
+  "items": null,
+  "holdIds": null,
+  "status": "confirmed",
+  "initiator": {
+    "client": {
+      "_id": "5ced9f7602854a0025e4b754",
+      "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+      "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+      "role": "basic",
+      "updatedAt": "2020-06-24T20:21:46.811Z",
+      "createdAt": "2019-05-28T20:52:06.276Z",
+      "name": "Main App",
+      "roles": [
+        "admin",
+        "hidden-manager",
+        "sameday",
+        "warn-blacklist",
+        "advance"
+      ]
+    },
+    "startClient": "manual",
+    "token": null,
+    "affiliateId": null
+  },
+  "createUser": "6205755bfa81b60060c4c2aa",
+  "updatedAt": "2022-04-07T20:33:44.436Z",
+  "createdAt": "2022-04-07T20:33:43.388Z",
+  "notes": [],
+  "actions": [
+    {
+      "action": "createdBy",
+      "timestamp": "2022-04-07T20:33:43.802Z",
+      "userId": "6205755bfa81b60060c4c2aa"
+    },
+    {
+      "action": "update",
+      "update": {
+        "type": "confirm"
+      },
+      "timestamp": "2022-04-07T20:33:44.079Z",
+      "userId": "6205755bfa81b60060c4c2aa"
+    }
+  ],
+  "cost": {
+    "cost": 210,
+    "invoice": {
+      "_id": "624f4aa74dd19f002e66159f",
+      "dueAt": "2022-04-15T19:00:00.000Z",
+      "active": true,
+      "settled": false,
+      "accountId": "624f4aa74dd19f002e66159e",
+      "paid": false,
+      "items": [
+        {
+          "amount": 50,
+          "description": "Days (B)",
+          "category": "reservation",
+          "quantity": 4,
+          "options": {
+            "siteTypeId": "5ffcec0fb21f15002662242b",
+            "days": true
+          },
+          "taxes": [
+            {
+              "type": "percentage",
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "name": "GST",
+              "value": 0.05
+            }
+          ],
+          "appliedTaxes": {
+            "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+          }
+        }
+      ],
+      "payments": [],
+      "fee": 0,
+      "feeSettled": false,
+      "updatedAt": "2022-04-07T20:33:44.214Z",
+      "createdAt": "2022-04-07T20:33:43.886Z",
+      "organizationId": "586b2b5e8dc42564c94af108",
+      "propertyId": "5ffce942b21f15002662241e",
+      "appliedTaxes": {},
+      "feelessTotal": 210,
+      "history": [
+        {
+          "time": "2022-04-07T20:33:43.920Z",
+          "who": null,
+          "addLineItem": {
+            "amount": 50,
+            "description": "Days (B)",
+            "category": "reservation",
+            "quantity": 4,
+            "options": {
+              "siteTypeId": "5ffcec0fb21f15002662242b",
+              "days": true
+            },
+            "taxes": [
+              {
+                "type": "percentage",
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "name": "GST",
+                "value": 0.05
+              }
+            ],
+            "appliedTaxes": {
+              "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+            }
+          }
+        },
+        {
+          "time": "2022-04-07T20:33:43.921Z",
+          "who": null,
+          "updatedTotal": {
+            "subtotal": 200,
+            "total": 210,
+            "feelessTotal": 210,
+            "itemTaxes": 10,
+            "otherTaxes": 0,
+            "remainingBalance": 210,
+            "depositSubtotal": null,
+            "depositTax": null,
+            "depositTotal": null
+          }
+        },
+        {
+          "time": "2022-04-07T20:33:43.924Z",
+          "who": null,
+          "addTaxes": []
+        },
+        {
+          "time": "2022-04-07T20:33:44.210Z",
+          "who": {
+            "userId": "6205755bfa81b60060c4c2aa",
+            "name": "Ely  Bourland"
+          },
+          "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+        }
+      ],
+      "itemTaxBreakdown": [
+        {
+          "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+          "value": 10
+        }
+      ],
+      "itemTaxes": 10,
+      "otherTaxes": 0,
+      "remainingBalance": 210,
+      "subtotal": 200,
+      "taxes": [],
+      "total": 210,
+      "link": {
+        "type": "reservation",
+        "id": "624f4aa74dd19f002e66159d"
+      },
+      "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+    }
+  },
+  "sites": [
+    {
+      "_id": "5ffcee12b21f150026622434",
+      "name": "B",
+      "siteType": "5ffcec0fb21f15002662242b",
+      "description": "30 Amp Back In",
+      "length": 30,
+      "overhead": 30,
+      "guestLimit": "",
+      "electrical": [
+        "30A"
+      ],
+      "water": true,
+      "sewage": true,
+      "driverSlide": true,
+      "passengerSlide": true,
+      "backIn": true,
+      "images": [
+        {
+          "imagePath": "PPCamp5.jpg",
+          "relativePath": "property/5ffce942b21f15002662241e/PPCamp5.jpg",
+          "width": 1024,
+          "height": 682,
+          "ratio": 1.501466275659824,
+          "smallThumbnail": "PPCamp5_200_thumb.jpg",
+          "smallThumbnailWebp": "PPCamp5_200_thumb.webp",
+          "smallThumbnailWidth": 200,
+          "smallThumbnailHeight": 133.203125,
+          "mediumThumbnail": "PPCamp5_600_thumb.jpg",
+          "mediumThumbnailWebp": "PPCamp5_600_thumb.webp",
+          "mediumThumbnailWidth": 600,
+          "mediumThumbnailHeight": 399.609375,
+          "largeThumbnail": "PPCamp5_900_thumb.jpg",
+          "largeThumbnailWebp": "PPCamp5_900_thumb.webp",
+          "largeThumbnailWidth": 900,
+          "largeThumbnailHeight": 599.4140625,
+          "xLarge": "PPCamp5_900_thumb.jpg",
+          "xLargeWebp": "PPCamp5_900_thumb.webp",
+          "xLargeWidth": 900,
+          "xLargeHeight": 599.4140625,
+          "xxLarge": "PPCamp5_900_thumb.jpg",
+          "xxLargeWebp": "PPCamp5_900_thumb.webp",
+          "xxLargeWidth": 900,
+          "xxLargeHeight": 599.4140625
+        }
+      ],
+      "rates": {},
+      "propertyId": "5ffce942b21f15002662241e",
+      "updatedAt": "2022-11-23T21:27:22.900Z",
+      "createdAt": "2021-01-12T00:32:18.967Z",
+      "hidden": false,
+      "type": {
+        "_id": "5ffcec0fb21f15002662242b",
+        "name": "30 Amp Back In",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Back In",
+        "rates": {
+          "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+          "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T19:37:43.398Z",
+        "createdAt": "2021-01-12T00:23:43.089Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    }
+  ],
+  "type": {
+    "_id": "5ffcec0fb21f15002662242b",
+    "name": "30 Amp Back In",
+    "types": [
+      "rv"
+    ],
+    "guestLimit": "",
+    "description": "30 Amp Back In",
+    "rates": {
+      "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+      "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+      "monthly": ""
+    },
+    "images": "",
+    "taxes": "",
+    "checkIn": "",
+    "checkOut": "",
+    "welcomeMessage": "",
+    "propertyId": "5ffce942b21f15002662241e",
+    "updatedAt": "2022-03-17T19:37:43.398Z",
+    "createdAt": "2021-01-12T00:23:43.089Z",
+    "guests": {
+      "adults": {
+        "function": ">",
+        "number": ""
+      },
+      "children": {
+        "function": ">",
+        "number": ""
+      },
+      "pets": {
+        "function": ">",
+        "number": ""
+      }
+    },
+    "noPets": false
+  }
+}

@@ -1,0 +1,7 @@
+@function map-get-fb($map, $key, $fb) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  }
+
+  @return $fb;
+}

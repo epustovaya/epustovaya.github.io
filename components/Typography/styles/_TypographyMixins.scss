@@ -1,0 +1,160 @@
+@import '../../../styles/includes/index';
+
+@mixin h1-default {
+  padding: 32px 0 16px 0;
+  font-size: 40px;
+  line-height: 54px;
+
+  @media (min-width: $media-s) and (max-width: $media-l) {
+    padding: 40px 0 20px 0;
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  @media (min-width: $media-l) {
+    padding: 32px 0;
+    font-size: 70px;
+    line-height: 90px;
+  }
+}
+
+@mixin h2-default {
+  padding: 32px 0 16px 0;
+  font-size: 32px;
+  line-height: 48px;
+
+  @media (min-width: $media-s) and (max-width: $media-l) {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  @media (min-width: $media-l) {
+    padding: 40px 0 20px 0;
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@mixin h3-default-fixed {
+  padding: 32px 0 16px 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+@mixin h3-default {
+  padding: 24px 0 12px 0;
+  font-size: 24px;
+  line-height: 36px;
+
+  @media (min-width: $media-s) and (max-width: $media-l) {
+    padding: 32px 0 16px 0;
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  @media (min-width: $media-l) {
+    padding: 32px 0 16px 0;
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+@mixin h4-default {
+  padding: 20px 0 12px 0;
+  font-size: 20px;
+  line-height: 30px;
+
+  @media (min-width: $media-s) and (max-width: $media-l) {
+    padding-top: 24px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  @media (min-width: $media-l) {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
+@mixin h5-default {
+  // padding: 20px 0 12px 0;/* ? */
+  padding: 16px 0 12px 0;
+  font-size: 18px;
+  line-height: 27px;
+
+  @media (min-width: $media-s) and (max-width: $media-l) {
+    // padding: 24px 0 12px 0; /* ? */
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @media (min-width: $media-l) {
+    padding: 24px 0 12px 0;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@mixin h6-default {
+  font-weight: normal;
+  padding: 16px 0 12px 0;
+  font-size: 18px;
+  line-height: 27px;
+
+  @media (min-width: $media-l) {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@mixin h6-default-fixed {
+  font-weight: normal;
+  padding: 20px 0 12px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+@mixin p-default {
+  padding: 4px 0;
+  font-size: 14px;
+  line-height: 21px;
+  @media (min-width: $media-s) {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@mixin p-default-fixed {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin link-default {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $c-primary;
+  text-decoration: none;
+  cursor: pointer;
+
+  &--font-inherited {
+    font: inherit;
+  }
+
+  &:active {
+    color: $c-primary;
+  }
+
+  &:hover {
+    color: $c-primary-dark;
+  }
+}

@@ -1,0 +1,29 @@
+@mixin scrollHidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin scrollCustom {
+  $thumb: $c-scrollbar-thumb-bg;
+  $track: $c-scrollbar-track-bg;
+
+  scrollbar-width: thin;
+  scrollbar-color: $thumb $track;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $track;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,4813 @@
+ [
+    {
+      "_id": "624f4aa74dd19f002e66159d",
+      "propertyId": "5ffce942b21f15002662241e",
+      "siteIds": [
+        "5ffcee12b21f150026622434"
+      ],
+      "siteType": "5ffcec0fb21f15002662242b",
+      "arrival": "2022-04-15T19:00:00.000Z",
+      "departure": "2022-04-19T18:59:00.000Z",
+      "camperInfo": {
+        "accountId": "",
+        "firstName": "Ely",
+        "lastName": "Bourland",
+        "phoneNumber": "",
+        "email": "",
+        "guests": {
+          "adults": 2,
+          "children": "",
+          "pets": ""
+        },
+        "address": {
+          "address1": "",
+          "address2": "",
+          "city": "",
+          "state": "",
+          "postalCode": "",
+          "country": "CA"
+        },
+        "privateNote": "",
+        "publicNote": "",
+        "rigType": "Travel Trailer",
+        "rigLength": 12
+      },
+      "paymentInfo": {
+        "paymentAmount": null,
+        "cost": {
+          "cost": 210,
+          "invoice": {
+            "_id": "624f4aa74dd19f002e66159f",
+            "active": true,
+            "settled": false,
+            "paid": false,
+            "items": [
+              {
+                "amount": 50,
+                "description": "Days (B)",
+                "category": "reservation",
+                "quantity": 4,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+                }
+              }
+            ],
+            "propertyId": "5ffce942b21f15002662241e",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "payments": [],
+            "taxes": [],
+            "dueAt": "2022-04-15T19:00:00.000Z",
+            "feelessTotal": 210,
+            "fee": 0,
+            "feeSettled": false,
+            "subtotal": 200,
+            "total": 210,
+            "remainingBalance": 210,
+            "itemTaxes": 10,
+            "otherTaxes": 0,
+            "appliedTaxes": {},
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 10
+              }
+            ],
+            "accountId": "624f4aa74dd19f002e66159e",
+            "updatedAt": "2022-04-07T20:33:43.930Z",
+            "createdAt": "2022-04-07T20:33:43.886Z",
+            "history": [
+              {
+                "time": "2022-04-07T20:33:43.920Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 50,
+                  "description": "Days (B)",
+                  "category": "reservation",
+                  "quantity": 4,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+                  }
+                }
+              },
+              {
+                "time": "2022-04-07T20:33:43.921Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 200,
+                  "total": 210,
+                  "feelessTotal": 210,
+                  "itemTaxes": 10,
+                  "otherTaxes": 0,
+                  "remainingBalance": 210,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-04-07T20:33:43.924Z",
+                "who": null,
+                "addTaxes": []
+              }
+            ]
+          }
+        },
+        "deposit": null,
+        "payment": 210,
+        "payments": [],
+        "invoices": {
+          "624f4aa74dd19f002e66159f": {
+            "_id": "624f4aa74dd19f002e66159f",
+            "dueAt": "2022-04-15T19:00:00.000Z",
+            "active": true,
+            "settled": false,
+            "accountId": "624f4aa74dd19f002e66159e",
+            "paid": false,
+            "items": [
+              {
+                "amount": 50,
+                "description": "Days (B)",
+                "category": "reservation",
+                "quantity": 4,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+                }
+              }
+            ],
+            "payments": [],
+            "fee": 0,
+            "feeSettled": false,
+            "updatedAt": "2022-04-07T20:33:44.214Z",
+            "createdAt": "2022-04-07T20:33:43.886Z",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "propertyId": "5ffce942b21f15002662241e",
+            "appliedTaxes": {},
+            "feelessTotal": 210,
+            "history": [
+              {
+                "time": "2022-04-07T20:33:43.920Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 50,
+                  "description": "Days (B)",
+                  "category": "reservation",
+                  "quantity": 4,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+                  }
+                }
+              },
+              {
+                "time": "2022-04-07T20:33:43.921Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 200,
+                  "total": 210,
+                  "feelessTotal": 210,
+                  "itemTaxes": 10,
+                  "otherTaxes": 0,
+                  "remainingBalance": 210,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-04-07T20:33:43.924Z",
+                "who": null,
+                "addTaxes": []
+              },
+              {
+                "time": "2022-04-07T20:33:44.210Z",
+                "who": {
+                  "userId": "6205755bfa81b60060c4c2aa",
+                  "name": "Ely  Bourland"
+                },
+                "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+              }
+            ],
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 10
+              }
+            ],
+            "itemTaxes": 10,
+            "otherTaxes": 0,
+            "remainingBalance": 210,
+            "subtotal": 200,
+            "taxes": [],
+            "total": 210,
+            "link": {
+              "type": "reservation",
+              "id": "624f4aa74dd19f002e66159d"
+            },
+            "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+          }
+        },
+        "paid": 0
+      },
+      "items": null,
+      "holdIds": null,
+      "status": "confirmed",
+      "initiator": {
+        "client": {
+          "_id": "5ced9f7602854a0025e4b754",
+          "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+          "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+          "role": "basic",
+          "updatedAt": "2020-06-24T20:21:46.811Z",
+          "createdAt": "2019-05-28T20:52:06.276Z",
+          "name": "Main App",
+          "roles": [
+            "admin",
+            "hidden-manager",
+            "sameday",
+            "warn-blacklist",
+            "advance"
+          ]
+        },
+        "startClient": "manual",
+        "token": null,
+        "affiliateId": null
+      },
+      "createUser": "6205755bfa81b60060c4c2aa",
+      "updatedAt": "2022-04-07T20:33:44.436Z",
+      "createdAt": "2022-04-07T20:33:43.388Z",
+      "notes": [],
+      "actions": [
+        {
+          "action": "createdBy",
+          "timestamp": "2022-04-07T20:33:43.802Z",
+          "userId": "6205755bfa81b60060c4c2aa"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "confirm"
+          },
+          "timestamp": "2022-04-07T20:33:44.079Z",
+          "userId": "6205755bfa81b60060c4c2aa"
+        }
+      ],
+      "cost": {
+        "cost": 210,
+        "invoice": {
+          "_id": "624f4aa74dd19f002e66159f",
+          "dueAt": "2022-04-15T19:00:00.000Z",
+          "active": true,
+          "settled": false,
+          "accountId": "624f4aa74dd19f002e66159e",
+          "paid": false,
+          "items": [
+            {
+              "amount": 50,
+              "description": "Days (B)",
+              "category": "reservation",
+              "quantity": 4,
+              "options": {
+                "siteTypeId": "5ffcec0fb21f15002662242b",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+              }
+            }
+          ],
+          "payments": [],
+          "fee": 0,
+          "feeSettled": false,
+          "updatedAt": "2022-04-07T20:33:44.214Z",
+          "createdAt": "2022-04-07T20:33:43.886Z",
+          "organizationId": "586b2b5e8dc42564c94af108",
+          "propertyId": "5ffce942b21f15002662241e",
+          "appliedTaxes": {},
+          "feelessTotal": 210,
+          "history": [
+            {
+              "time": "2022-04-07T20:33:43.920Z",
+              "who": null,
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (B)",
+                "category": "reservation",
+                "quantity": 4,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 10
+                }
+              }
+            },
+            {
+              "time": "2022-04-07T20:33:43.921Z",
+              "who": null,
+              "updatedTotal": {
+                "subtotal": 200,
+                "total": 210,
+                "feelessTotal": 210,
+                "itemTaxes": 10,
+                "otherTaxes": 0,
+                "remainingBalance": 210,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-04-07T20:33:43.924Z",
+              "who": null,
+              "addTaxes": []
+            },
+            {
+              "time": "2022-04-07T20:33:44.210Z",
+              "who": {
+                "userId": "6205755bfa81b60060c4c2aa",
+                "name": "Ely  Bourland"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            }
+          ],
+          "itemTaxBreakdown": [
+            {
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "value": 10
+            }
+          ],
+          "itemTaxes": 10,
+          "otherTaxes": 0,
+          "remainingBalance": 210,
+          "subtotal": 200,
+          "taxes": [],
+          "total": 210,
+          "link": {
+            "type": "reservation",
+            "id": "624f4aa74dd19f002e66159d"
+          },
+          "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+        }
+      },
+      "sites": [
+        {
+          "_id": "5ffcee12b21f150026622434",
+          "name": "B",
+          "siteType": "5ffcec0fb21f15002662242b",
+          "description": "30 Amp Back In",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "30A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "backIn": true,
+          "images": [
+            {
+              "imagePath": "PPCamp5.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PPCamp5.jpg",
+              "width": 1024,
+              "height": 682,
+              "ratio": 1.501466275659824,
+              "smallThumbnail": "PPCamp5_200_thumb.jpg",
+              "smallThumbnailWebp": "PPCamp5_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.203125,
+              "mediumThumbnail": "PPCamp5_600_thumb.jpg",
+              "mediumThumbnailWebp": "PPCamp5_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 399.609375,
+              "largeThumbnail": "PPCamp5_900_thumb.jpg",
+              "largeThumbnailWebp": "PPCamp5_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 599.4140625,
+              "xLarge": "PPCamp5_900_thumb.jpg",
+              "xLargeWebp": "PPCamp5_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 599.4140625,
+              "xxLarge": "PPCamp5_900_thumb.jpg",
+              "xxLargeWebp": "PPCamp5_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 599.4140625
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2022-11-23T21:27:22.900Z",
+          "createdAt": "2021-01-12T00:32:18.967Z",
+          "hidden": false,
+          "type": {
+            "_id": "5ffcec0fb21f15002662242b",
+            "name": "30 Amp Back In",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "30 Amp Back In",
+            "rates": {
+              "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+              "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T19:37:43.398Z",
+            "createdAt": "2021-01-12T00:23:43.089Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": false
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcec0fb21f15002662242b",
+        "name": "30 Amp Back In",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Back In",
+        "rates": {
+          "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+          "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T19:37:43.398Z",
+        "createdAt": "2021-01-12T00:23:43.089Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    },
+    {
+      "_id": "63651f29e67d2a20a60469ff",
+      "propertyId": "5ffce942b21f15002662241e",
+      "siteIds": [
+        "5ffcede627da970026c9a7f3"
+      ],
+      "siteType": "5ffcec0fb21f15002662242b",
+      "arrival": "2022-11-07T20:00:00.000Z",
+      "departure": "2022-11-10T19:59:00.000Z",
+      "camperInfo": {
+        "accountId": "",
+        "firstName": "Test",
+        "lastName": "Test",
+        "phoneNumber": "5086880052",
+        "email": "sergey@quintegro.com",
+        "guests": {
+          "adults": 2,
+          "children": 1,
+          "pets": 0
+        },
+        "goodSamMembership": {
+          "goodSamId": ""
+        },
+        "address": {
+          "address1": "1 Main St",
+          "address2": "",
+          "city": "Boston",
+          "state": "MA",
+          "postalCode": "02020",
+          "country": "US"
+        },
+        "privateNote": "",
+        "publicNote": "",
+        "rigType": "5th Wheel",
+        "rigLength": 20
+      },
+      "paymentInfo": {
+        "paymentAmount": null,
+        "cost": {
+          "cost": 52.5,
+          "invoice": {
+            "_id": "63651f29e67d2aa064046a01",
+            "active": true,
+            "settled": false,
+            "paid": false,
+            "items": [
+              {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            ],
+            "propertyId": "5ffce942b21f15002662241e",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "payments": [],
+            "taxes": [],
+            "dueAt": "2022-11-04T19:00:00.000Z",
+            "feelessTotal": 52.5,
+            "fee": 0,
+            "feeSettled": false,
+            "subtotal": 50,
+            "total": 52.5,
+            "remainingBalance": 52.5,
+            "itemTaxes": 2.5,
+            "otherTaxes": 0,
+            "appliedTaxes": {},
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 2.5
+              }
+            ],
+            "accountId": "63651f29e67d2a4dfa046a00",
+            "updatedAt": "2022-11-04T14:18:17.904Z",
+            "createdAt": "2022-11-04T14:18:17.740Z",
+            "history": [
+              {
+                "time": "2022-11-04T14:18:17.841Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 50,
+                  "description": "Days (A)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                  }
+                }
+              },
+              {
+                "time": "2022-11-04T14:18:17.841Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 50,
+                  "total": 52.5,
+                  "feelessTotal": 52.5,
+                  "itemTaxes": 2.5,
+                  "otherTaxes": 0,
+                  "remainingBalance": 52.5,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-04T14:18:17.843Z",
+                "who": null,
+                "addTaxes": []
+              }
+            ]
+          }
+        },
+        "deposit": null,
+        "payment": 52.5,
+        "payments": [],
+        "invoices": {
+          "63651f29e67d2aa064046a01": {
+            "_id": "63651f29e67d2aa064046a01",
+            "dueAt": "2022-11-04T19:00:00.000Z",
+            "active": true,
+            "settled": false,
+            "accountId": "63651f29e67d2a4dfa046a00",
+            "paid": false,
+            "items": [
+              {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            ],
+            "payments": [],
+            "fee": 0,
+            "feeSettled": false,
+            "updatedAt": "2022-11-04T14:18:18.180Z",
+            "createdAt": "2022-11-04T14:18:17.740Z",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "propertyId": "5ffce942b21f15002662241e",
+            "appliedTaxes": {},
+            "feelessTotal": 52.5,
+            "history": [
+              {
+                "time": "2022-11-04T14:18:17.841Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 50,
+                  "description": "Days (A)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                  }
+                }
+              },
+              {
+                "time": "2022-11-04T14:18:17.841Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 50,
+                  "total": 52.5,
+                  "feelessTotal": 52.5,
+                  "itemTaxes": 2.5,
+                  "otherTaxes": 0,
+                  "remainingBalance": 52.5,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-04T14:18:17.843Z",
+                "who": null,
+                "addTaxes": []
+              },
+              {
+                "time": "2022-11-04T14:18:18.176Z",
+                "who": {
+                  "userId": "635980e6bd785bc7abfa5f3a",
+                  "name": "Sergey  Kazakov"
+                },
+                "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+              }
+            ],
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 2.5
+              }
+            ],
+            "itemTaxes": 2.5,
+            "otherTaxes": 0,
+            "remainingBalance": 52.5,
+            "subtotal": 50,
+            "taxes": [],
+            "total": 52.5,
+            "link": {
+              "type": "reservation",
+              "id": "63651f29e67d2a20a60469ff"
+            },
+            "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+          }
+        },
+        "paid": 0
+      },
+      "items": null,
+      "holdIds": null,
+      "status": "confirmed",
+      "initiator": {
+        "client": {
+          "_id": "5ced9f7602854a0025e4b754",
+          "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+          "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+          "role": "basic",
+          "updatedAt": "2020-06-24T20:21:46.811Z",
+          "createdAt": "2019-05-28T20:52:06.276Z",
+          "name": "Main App",
+          "roles": [
+            "admin",
+            "hidden-manager",
+            "sameday",
+            "warn-blacklist",
+            "advance"
+          ]
+        },
+        "startClient": "manual",
+        "token": null,
+        "affiliateId": null
+      },
+      "createUser": "635980e6bd785bc7abfa5f3a",
+      "updatedAt": "2022-12-03T21:12:38.889Z",
+      "createdAt": "2022-11-04T14:18:17.302Z",
+      "notes": [],
+      "actions": [
+        {
+          "action": "createdBy",
+          "timestamp": "2022-11-04T14:18:17.635Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "confirm"
+          },
+          "timestamp": "2022-11-04T14:18:18.032Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "send-confirmation"
+          },
+          "timestamp": "2022-11-04T14:18:26.828Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "check-in"
+          },
+          "timestamp": "2022-11-04T14:18:49.896Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-04T12:00:00.000-07:00",
+                "2022-11-04T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-05T11:59:00.000-07:00",
+                "2022-11-05T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T21:24:58.378Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "captured-signature"
+          },
+          "timestamp": "2022-11-23T21:24:58.477Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "check-out"
+          },
+          "timestamp": "2022-11-23T21:25:09.308Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-04T12:00:00.000-07:00",
+                "2022-11-04T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-05T11:59:00.000-07:00",
+                "2022-11-07T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T22:46:31.940Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-04T12:00:00.000-07:00",
+                "2022-11-07T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-07T11:59:00.000-08:00",
+                "2022-11-10T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T23:04:47.443Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-07T12:00:00.000-08:00",
+                "2022-11-07T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-10T11:59:00.000-08:00",
+                "2022-11-10T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-29T22:57:10.431Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "send-confirmation"
+          },
+          "timestamp": "2022-12-03T21:12:38.881Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        }
+      ],
+      "cost": {
+        "cost": 151.2,
+        "invoice": {
+          "_id": "63651f29e67d2aa064046a01",
+          "dueAt": "2022-11-07T12:00:00.000Z",
+          "active": true,
+          "settled": false,
+          "accountId": "63651f29e67d2a4dfa046a00",
+          "paid": false,
+          "items": [
+            {
+              "amount": 60,
+              "description": "Days (November - A)",
+              "category": "reservation",
+              "quantity": 3,
+              "options": {
+                "siteTypeId": "5ffcec0fb21f15002662242b",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 7.2
+              },
+              "discounts": [
+                {
+                  "label": "Test",
+                  "active": true,
+                  "type": "percentage",
+                  "appliesTo": [
+                    "reservation"
+                  ],
+                  "percentage": 0.2,
+                  "reservationRules": {
+                    "rateTypes": [
+                      "nightly",
+                      "weekly",
+                      "monthly"
+                    ],
+                    "max": 0
+                  },
+                  "id": "788b8721-6655-48e7-bd6a-a8a8a73f8228",
+                  "amount": 36
+                }
+              ]
+            }
+          ],
+          "payments": [],
+          "fee": 0,
+          "feeSettled": false,
+          "updatedAt": "2022-12-01T22:32:14.125Z",
+          "createdAt": "2022-11-04T14:18:17.740Z",
+          "organizationId": "586b2b5e8dc42564c94af108",
+          "propertyId": "5ffce942b21f15002662241e",
+          "appliedTaxes": {},
+          "feelessTotal": 151.2,
+          "history": [
+            {
+              "time": "2022-11-04T14:18:17.841Z",
+              "who": null,
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-04T14:18:17.841Z",
+              "who": null,
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-04T14:18:17.843Z",
+              "who": null,
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-04T14:18:18.176Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-11-23T21:24:58.379Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T21:24:58.380Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T21:24:58.383Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T21:24:58.383Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T21:24:58.385Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T22:46:31.941Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T22:46:31.941Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T22:46:31.943Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 3,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 9
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T22:46:31.944Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 189,
+                "feelessTotal": 189,
+                "itemTaxes": 9,
+                "otherTaxes": 0,
+                "remainingBalance": 189,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T22:46:31.944Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T23:04:47.445Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T23:04:47.446Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T23:04:47.450Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 3,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 9
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T23:04:47.451Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 189,
+                "feelessTotal": 189,
+                "itemTaxes": 9,
+                "otherTaxes": 0,
+                "remainingBalance": 189,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T23:04:47.452Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-29T22:57:10.434Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-29T22:57:10.435Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T22:57:10.501Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 3,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 9
+                }
+              }
+            },
+            {
+              "time": "2022-11-29T22:57:10.501Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 189,
+                "feelessTotal": 189,
+                "itemTaxes": 9,
+                "otherTaxes": 0,
+                "remainingBalance": 189,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T22:57:10.503Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-12-01T13:21:38.710Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-12-01T22:30:47.101Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 189,
+                "feelessTotal": 189,
+                "itemTaxes": 9,
+                "otherTaxes": 0,
+                "remainingBalance": 189,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-12-01T22:31:34.973Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 151.2,
+                "feelessTotal": 151.2,
+                "itemTaxes": 7.2,
+                "otherTaxes": 0,
+                "remainingBalance": 151.2
+              }
+            },
+            {
+              "time": "2022-12-01T22:32:13.808Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 180,
+                "total": 151.2,
+                "feelessTotal": 151.2,
+                "itemTaxes": 7.2,
+                "otherTaxes": 0,
+                "remainingBalance": 151.2,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            }
+          ],
+          "itemTaxBreakdown": [
+            {
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "value": 7.2
+            }
+          ],
+          "itemTaxes": 7.2,
+          "otherTaxes": 0,
+          "remainingBalance": 151.2,
+          "subtotal": 180,
+          "taxes": [],
+          "total": 151.2,
+          "link": {
+            "type": "reservation",
+            "id": "63651f29e67d2a20a60469ff"
+          },
+          "connectAccount": "acct_1I7QFNI6tgpNKbuz",
+          "discounts": [
+            {
+              "id": "018a0ae4-8863-4946-95f4-8661ed61bbf0",
+              "label": "Test",
+              "amount": 0
+            },
+            {
+              "id": "788b8721-6655-48e7-bd6a-a8a8a73f8228",
+              "label": "Test",
+              "amount": 36
+            }
+          ]
+        }
+      },
+      "checkedIn": "2022-11-04T14:18:49.896Z",
+      "termsSignature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACHMAAAHqCAYAAACNnpCcAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAIc6ADAAQAAAABAAAB6gAAAADKo0gtAABAAElEQVR4AezQgQAAAACAoP2pFymECgMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYDRlbgAACFxJREFUYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBgwYMCAAQMGDBi4HToQAAAAABDkbz3IhZABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMvAcCtiIAAToRWEUAAAAASUVORK5CYII=",
+      "checkedOut": "2022-11-23T21:25:09.307Z",
+      "sites": [
+        {
+          "_id": "5ffcede627da970026c9a7f3",
+          "name": "A",
+          "siteType": "5ffcec0fb21f15002662242b",
+          "description": "30 Amp Back In",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "30A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "backIn": true,
+          "images": [
+            {
+              "imagePath": "PPCamp7.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PPCamp7.jpg",
+              "width": 1024,
+              "height": 682,
+              "ratio": 1.501466275659824,
+              "smallThumbnail": "PPCamp7_200_thumb.jpg",
+              "smallThumbnailWebp": "PPCamp7_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.203125,
+              "mediumThumbnail": "PPCamp7_600_thumb.jpg",
+              "mediumThumbnailWebp": "PPCamp7_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 399.609375,
+              "largeThumbnail": "PPCamp7_900_thumb.jpg",
+              "largeThumbnailWebp": "PPCamp7_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 599.4140625,
+              "xLarge": "PPCamp7_900_thumb.jpg",
+              "xLargeWebp": "PPCamp7_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 599.4140625,
+              "xxLarge": "PPCamp7_900_thumb.jpg",
+              "xxLargeWebp": "PPCamp7_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 599.4140625
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2022-11-23T23:03:42.387Z",
+          "createdAt": "2021-01-12T00:31:34.730Z",
+          "hidden": false,
+          "type": {
+            "_id": "5ffcec0fb21f15002662242b",
+            "name": "30 Amp Back In",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "30 Amp Back In",
+            "rates": {
+              "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+              "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T19:37:43.398Z",
+            "createdAt": "2021-01-12T00:23:43.089Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": false
+          },
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -125.11965064465882,
+              49.87043486346454
+            ]
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcec0fb21f15002662242b",
+        "name": "30 Amp Back In",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Back In",
+        "rates": {
+          "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+          "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T19:37:43.398Z",
+        "createdAt": "2021-01-12T00:23:43.089Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    },
+    {
+      "_id": "637e85bac441e93e1ff087b9",
+      "propertyId": "5ffce942b21f15002662241e",
+      "siteIds": [
+        "5ffcf03227da970026c9a800"
+      ],
+      "siteType": "5ffcebf727da970026c9a7e5",
+      "arrival": "2022-11-23T12:00:00.000Z",
+      "departure": "2022-11-25T11:59:00.000Z",
+      "camperInfo": {
+        "accountId": "63651f29e67d2a4dfa046a00",
+        "guests": {
+          "adults": 2,
+          "children": 2,
+          "pets": 0
+        },
+        "goodSamMembership": {
+          "goodSamId": ""
+        },
+        "isCompany": false,
+        "privateNote": "",
+        "publicNote": "",
+        "rigType": "Travel Trailer",
+        "rigLength": 25,
+        "driverSlide": true,
+        "passengerSlide": true,
+        "firstName": "Test",
+        "lastName": "Test",
+        "email": "sergey@quintegro.com"
+      },
+      "paymentInfo": {
+        "paymentAmount": null,
+        "cost": {
+          "cost": 52.5,
+          "invoice": {
+            "_id": "637e85bac441e98539f087ba",
+            "active": true,
+            "settled": false,
+            "paid": false,
+            "items": [
+              {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            ],
+            "propertyId": "5ffce942b21f15002662241e",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "payments": [],
+            "taxes": [],
+            "dueAt": "2022-11-23T20:00:00.000Z",
+            "feelessTotal": 52.5,
+            "fee": 0,
+            "feeSettled": false,
+            "subtotal": 50,
+            "total": 52.5,
+            "remainingBalance": 52.5,
+            "itemTaxes": 2.5,
+            "otherTaxes": 0,
+            "appliedTaxes": {},
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 2.5
+              }
+            ],
+            "accountId": "63651f29e67d2a4dfa046a00",
+            "updatedAt": "2022-11-23T20:42:35.058Z",
+            "createdAt": "2022-11-23T20:42:34.930Z",
+            "history": [
+              {
+                "time": "2022-11-23T20:42:35.049Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 50,
+                  "description": "Days (A)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                  }
+                }
+              },
+              {
+                "time": "2022-11-23T20:42:35.049Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 50,
+                  "total": 52.5,
+                  "feelessTotal": 52.5,
+                  "itemTaxes": 2.5,
+                  "otherTaxes": 0,
+                  "remainingBalance": 52.5,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-23T20:42:35.051Z",
+                "who": null,
+                "addTaxes": []
+              }
+            ]
+          }
+        },
+        "deposit": null,
+        "payment": 52.5,
+        "payments": [],
+        "invoices": {
+          "637e85bac441e98539f087ba": {
+            "paid": false
+          }
+        }
+      },
+      "items": null,
+      "holdIds": null,
+      "status": "cancelled",
+      "initiator": {
+        "client": {
+          "_id": "5ced9f7602854a0025e4b754",
+          "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+          "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+          "role": "basic",
+          "updatedAt": "2020-06-24T20:21:46.811Z",
+          "createdAt": "2019-05-28T20:52:06.276Z",
+          "name": "Main App",
+          "roles": [
+            "admin",
+            "hidden-manager",
+            "sameday",
+            "warn-blacklist",
+            "advance"
+          ]
+        },
+        "startClient": "manual",
+        "token": null,
+        "affiliateId": null
+      },
+      "createUser": "635980e6bd785bc7abfa5f3a",
+      "updatedAt": "2022-11-29T16:50:00.589Z",
+      "createdAt": "2022-11-23T20:42:34.140Z",
+      "notes": [
+        {
+          "note": "Test public note",
+          "kind": "general",
+          "public": true,
+          "user": {
+            "id": "635980e6bd785bc7abfa5f3a",
+            "name": null
+          },
+          "timestamp": "2022-11-23T20:45:57.948Z"
+        },
+        {
+          "note": "Test note",
+          "kind": "general",
+          "public": false,
+          "user": {
+            "id": "635980e6bd785bc7abfa5f3a",
+            "name": null
+          },
+          "timestamp": "2022-11-23T20:45:57.948Z"
+        },
+        {
+          "note": "Test Note 2",
+          "kind": "general",
+          "public": false,
+          "user": {
+            "id": "635980e6bd785bc7abfa5f3a",
+            "name": null
+          },
+          "timestamp": "2022-11-23T20:46:18.930Z"
+        }
+      ],
+      "actions": [
+        {
+          "action": "createdBy",
+          "timestamp": "2022-11-23T20:42:34.727Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "confirm"
+          },
+          "timestamp": "2022-11-23T20:42:35.234Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:45:57.944Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "privateNote": [
+                "",
+                "Test note"
+              ],
+              "publicNote": [
+                "",
+                "Test public note"
+              ],
+              "firstName": [
+                "Test",
+                0,
+                0
+              ],
+              "lastName": [
+                "Test",
+                0,
+                0
+              ],
+              "email": [
+                "sergey@quintegro.com",
+                0,
+                0
+              ],
+              "goodSamMembership": [
+                {
+                  "goodSamId": ""
+                }
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:45:57.946Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:46:18.930Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "privateNote": [
+                "Test Note 2"
+              ],
+              "publicNote": [
+                ""
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:46:18.930Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:51:44.948Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "goodSamMembership": [
+                {
+                  "goodSamId": ""
+                },
+                0,
+                0
+              ],
+              "privateNote": [
+                ""
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:51:45.001Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:53:31.439Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "rigType": [
+                "Travel Trailer",
+                "Motorhome"
+              ],
+              "goodSamMembership": [
+                {
+                  "goodSamId": ""
+                }
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:53:31.440Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:53:41.690Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "rigLength": [
+                25,
+                35
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:53:41.691Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:55:36.144Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "rigType": [
+                "Motorhome",
+                "Travel Trailer"
+              ],
+              "rigLength": [
+                35,
+                25
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:55:36.145Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-sites",
+            "newSites": [
+              "5ffcee12b21f150026622434"
+            ],
+            "oldSites": [
+              "5ffcede627da970026c9a7f3"
+            ]
+          },
+          "timestamp": "2022-11-23T20:57:19.802Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:57:19.941Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "camper-info",
+            "delta": {
+              "passengerSlide": [
+                true
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T20:57:19.942Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "send-confirmation"
+          },
+          "timestamp": "2022-11-23T21:07:09.204Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "check-in"
+          },
+          "timestamp": "2022-11-23T21:16:43.825Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "check-out"
+          },
+          "timestamp": "2022-11-23T21:17:09.836Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "locked",
+            "isLocked": true
+          },
+          "timestamp": "2022-11-23T21:23:26.803Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "locked",
+            "isLocked": false
+          },
+          "timestamp": "2022-11-23T21:23:28.908Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "cancel"
+          },
+          "timestamp": "2022-11-29T16:39:36.978Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-sites",
+            "newSites": [
+              "5ffcf03227da970026c9a800"
+            ],
+            "oldSites": [
+              "5ffcee12b21f150026622434"
+            ]
+          },
+          "timestamp": "2022-11-29T16:40:39.691Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-29T16:40:39.956Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-sites",
+            "newSites": [
+              "5ffcee12b21f150026622434"
+            ],
+            "oldSites": [
+              "5ffcf03227da970026c9a800"
+            ]
+          },
+          "timestamp": "2022-11-29T16:40:59.379Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-24T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-29T16:40:59.563Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-sites",
+            "newSites": [
+              "5ffcf03227da970026c9a800"
+            ],
+            "oldSites": [
+              "5ffcee12b21f150026622434"
+            ]
+          },
+          "timestamp": "2022-11-29T16:41:21.627Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-11-23T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-11-25T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-29T16:41:21.771Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        }
+      ],
+      "cost": {
+        "cost": 126,
+        "invoice": {
+          "_id": "637e85bac441e98539f087ba",
+          "dueAt": "2022-11-23T12:00:00.000Z",
+          "active": false,
+          "settled": true,
+          "accountId": "63651f29e67d2a4dfa046a00",
+          "paid": false,
+          "items": [
+            {
+              "amount": 60,
+              "description": "Days (November - R1)",
+              "category": "reservation",
+              "quantity": 2,
+              "options": {
+                "siteTypeId": "5ffcebf727da970026c9a7e5",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 6
+              }
+            }
+          ],
+          "payments": [
+            {
+              "paymentAt": "2022-11-23T21:02:51.730Z",
+              "amount": 63,
+              "tender": "cash",
+              "currency": "CAD"
+            }
+          ],
+          "fee": 0,
+          "feeSettled": false,
+          "updatedAt": "2022-11-29T16:50:00.297Z",
+          "createdAt": "2022-11-23T20:42:34.930Z",
+          "organizationId": "586b2b5e8dc42564c94af108",
+          "propertyId": "5ffce942b21f15002662241e",
+          "appliedTaxes": {},
+          "feelessTotal": 126,
+          "history": [
+            {
+              "time": "2022-11-23T20:42:35.049Z",
+              "who": null,
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:42:35.049Z",
+              "who": null,
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:42:35.051Z",
+              "who": null,
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:42:35.519Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-11-23T20:45:57.949Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:45:57.949Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:45:57.951Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:45:57.951Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:45:57.952Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:46:18.931Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:46:18.931Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:46:18.932Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:46:18.932Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:46:18.933Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:51:45.001Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:51:45.002Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:51:45.005Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:51:45.005Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:51:45.007Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:53:31.440Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:31.440Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:31.442Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:31.442Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:31.443Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:53:41.691Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:41.691Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:41.692Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:41.692Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:53:41.693Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:55:36.145Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:55:36.146Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:55:36.148Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 2.5
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:55:36.148Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 50,
+                "total": 52.5,
+                "feelessTotal": 52.5,
+                "itemTaxes": 2.5,
+                "otherTaxes": 0,
+                "remainingBalance": 52.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:55:36.149Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T20:57:19.942Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-23T20:57:19.942Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:57:19.944Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - B)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T20:57:19.944Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T20:57:19.945Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T21:01:32.674Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T21:02:51.700Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-11-23T21:02:51.730Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addPayment": {
+                "paymentAt": "2022-11-23T21:02:51.730Z",
+                "amount": 63,
+                "tender": "cash",
+                "currency": "CAD"
+              }
+            },
+            {
+              "time": "2022-11-23T21:02:51.747Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "settle": {
+                "tender": "cash",
+                "currency": "CAD",
+                "capture": true,
+                "amount": null,
+                "active": false,
+                "settled": true,
+                "paid": true
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:39.958Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:39.959Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": -63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:39.962Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - R1)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcebf727da970026c9a7e5",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:39.962Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:39.963Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-29T16:40:59.564Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:59.564Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": -63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:59.565Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - B)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:59.565Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 0,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:40:59.566Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-29T16:41:21.772Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-11-29T16:41:21.772Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": -63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:41:21.774Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - R1)",
+                "category": "reservation",
+                "quantity": 2,
+                "options": {
+                  "siteTypeId": "5ffcebf727da970026c9a7e5",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 6
+                }
+              }
+            },
+            {
+              "time": "2022-11-29T16:41:21.774Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 120,
+                "total": 126,
+                "feelessTotal": 126,
+                "itemTaxes": 6,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T16:41:21.774Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            }
+          ],
+          "itemTaxBreakdown": [
+            {
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "value": 6
+            }
+          ],
+          "itemTaxes": 6,
+          "otherTaxes": 0,
+          "remainingBalance": 0,
+          "subtotal": 120,
+          "taxes": [],
+          "total": 126,
+          "link": {
+            "type": "reservation",
+            "id": "637e85bac441e93e1ff087b9"
+          },
+          "connectAccount": "acct_1I7QFNI6tgpNKbuz",
+          "settledAt": "2022-11-23T21:02:51.730Z",
+          "settlementTender": "cash"
+        }
+      },
+      "checkedIn": "2022-11-23T21:16:43.824Z",
+      "checkedOut": "2022-11-23T21:17:09.835Z",
+      "locked": false,
+      "sites": [
+        {
+          "_id": "5ffcf03227da970026c9a800",
+          "name": "R1",
+          "siteType": "5ffcebf727da970026c9a7e5",
+          "description": "30 Amp Pull Through",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "30A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "pullThrough": true,
+          "images": [
+            {
+              "imagePath": "PP6.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PP6.jpg",
+              "width": 1024,
+              "height": 682,
+              "ratio": 1.501466275659824,
+              "smallThumbnail": "PP6_200_thumb.jpg",
+              "smallThumbnailWebp": "PP6_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.203125,
+              "mediumThumbnail": "PP6_600_thumb.jpg",
+              "mediumThumbnailWebp": "PP6_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 399.609375,
+              "largeThumbnail": "PP6_900_thumb.jpg",
+              "largeThumbnailWebp": "PP6_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 599.4140625,
+              "xLarge": "PP6_900_thumb.jpg",
+              "xLargeWebp": "PP6_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 599.4140625,
+              "xxLarge": "PP6_900_thumb.jpg",
+              "xxLargeWebp": "PP6_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 599.4140625
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2022-11-23T21:26:42.025Z",
+          "createdAt": "2021-01-12T00:41:22.335Z",
+          "hidden": false,
+          "type": {
+            "_id": "5ffcebf727da970026c9a7e5",
+            "name": "30 Amp Pull Through",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "30 Amp Pull Through",
+            "rates": {
+              "nightly": "29c34713-b144-4d8f-9e5c-fbc993939bdb",
+              "weekly": "ab1f7bf4-9e6e-48d8-b022-e0e1c24eba2e",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T20:43:59.384Z",
+            "createdAt": "2021-01-12T00:23:19.807Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": false
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcebf727da970026c9a7e5",
+        "name": "30 Amp Pull Through",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Pull Through",
+        "rates": {
+          "nightly": "29c34713-b144-4d8f-9e5c-fbc993939bdb",
+          "weekly": "ab1f7bf4-9e6e-48d8-b022-e0e1c24eba2e",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T20:43:59.384Z",
+        "createdAt": "2021-01-12T00:23:19.807Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    },
+    {
+      "_id": "637e8cb44110d747dc9d8889",
+      "propertyId": "5ffce942b21f15002662241e",
+      "arrival": "2022-11-27T12:00:00.000Z",
+      "departure": "2022-12-03T11:59:00.000Z",
+      "status": "blocked",
+      "siteIds": [
+        "5ffcece227da970026c9a7ee"
+      ],
+      "siteType": "5ffcebdc27da970026c9a7e4",
+      "updatedAt": "2022-11-23T21:23:46.879Z",
+      "createdAt": "2022-11-23T21:12:20.729Z",
+      "notes": [],
+      "actions": [
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-20T12:00:00.000-08:00",
+                "2022-11-27T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-26T11:59:00.000-08:00",
+                "2022-12-03T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-11-23T21:23:46.869Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        }
+      ],
+      "camperInfo": {},
+      "sites": [
+        {
+          "_id": "5ffcece227da970026c9a7ee",
+          "name": "V1",
+          "siteType": "5ffcebdc27da970026c9a7e4",
+          "description": "Back In",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "50A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "backIn": true,
+          "images": [
+            {
+              "imagePath": "PPCamp2.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PPCamp2.jpg",
+              "width": 1024,
+              "height": 683,
+              "ratio": 1.499267935578331,
+              "smallThumbnail": "PPCamp2_200_thumb.jpg",
+              "smallThumbnailWebp": "PPCamp2_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.3984375,
+              "mediumThumbnail": "PPCamp2_600_thumb.jpg",
+              "mediumThumbnailWebp": "PPCamp2_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 400.1953125,
+              "largeThumbnail": "PPCamp2_900_thumb.jpg",
+              "largeThumbnailWebp": "PPCamp2_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 600.29296875,
+              "xLarge": "PPCamp2_900_thumb.jpg",
+              "xLargeWebp": "PPCamp2_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 600.29296875,
+              "xxLarge": "PPCamp2_900_thumb.jpg",
+              "xxLargeWebp": "PPCamp2_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 600.29296875
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2021-01-12T00:27:14.279Z",
+          "createdAt": "2021-01-12T00:27:14.246Z",
+          "type": {
+            "_id": "5ffcebdc27da970026c9a7e4",
+            "name": "50 Amp Back-In",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "50 Amp Back-In",
+            "rates": {
+              "nightly": "b6c76733-6ae4-4ad6-818b-fbe977ea45cd",
+              "weekly": "2067b15b-def3-4bd4-afa4-3b351a736922",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T20:44:37.659Z",
+            "createdAt": "2021-01-12T00:22:52.047Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": true
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcebdc27da970026c9a7e4",
+        "name": "50 Amp Back-In",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "50 Amp Back-In",
+        "rates": {
+          "nightly": "b6c76733-6ae4-4ad6-818b-fbe977ea45cd",
+          "weekly": "2067b15b-def3-4bd4-afa4-3b351a736922",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T20:44:37.659Z",
+        "createdAt": "2021-01-12T00:22:52.047Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": true
+      }
+    },
+    {
+      "_id": "637e912fc441e9b73bf087c8",
+      "propertyId": "5ffce942b21f15002662241e",
+      "siteIds": [
+        "5ffcede627da970026c9a7f3"
+      ],
+      "siteType": "5ffcec0fb21f15002662242b",
+      "arrival": "2022-12-06T12:00:00.000Z",
+      "departure": "2022-12-09T11:59:00.000Z",
+      "camperInfo": {
+        "accountId": "63651f29e67d2a4dfa046a00",
+        "guests": {
+          "adults": 3,
+          "children": "",
+          "pets": ""
+        },
+        "goodSamMembership": {
+          "goodSamId": ""
+        },
+        "privateNote": "",
+        "publicNote": "",
+        "rigType": "Travel Trailer",
+        "rigLength": 20,
+        "firstName": "Test",
+        "lastName": "Test",
+        "email": "sergey@quintegro.com"
+      },
+      "paymentInfo": {
+        "paymentAmount": null,
+        "cost": {
+          "cost": 63,
+          "invoice": {
+            "_id": "637e9130c441e934aaf087c9",
+            "active": true,
+            "settled": false,
+            "paid": false,
+            "items": [
+              {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            ],
+            "propertyId": "5ffce942b21f15002662241e",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "payments": [],
+            "taxes": [],
+            "dueAt": "2022-11-23T20:00:00.000Z",
+            "feelessTotal": 63,
+            "fee": 0,
+            "feeSettled": false,
+            "subtotal": 60,
+            "total": 63,
+            "remainingBalance": 63,
+            "itemTaxes": 3,
+            "otherTaxes": 0,
+            "appliedTaxes": {},
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 3
+              }
+            ],
+            "accountId": "63651f29e67d2a4dfa046a00",
+            "updatedAt": "2022-11-23T21:31:28.309Z",
+            "createdAt": "2022-11-23T21:31:28.130Z",
+            "history": [
+              {
+                "time": "2022-11-23T21:31:28.249Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 60,
+                  "description": "Days (November - A)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                  }
+                }
+              },
+              {
+                "time": "2022-11-23T21:31:28.250Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 60,
+                  "total": 63,
+                  "feelessTotal": 63,
+                  "itemTaxes": 3,
+                  "otherTaxes": 0,
+                  "remainingBalance": 63,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-23T21:31:28.301Z",
+                "who": null,
+                "addTaxes": []
+              }
+            ]
+          }
+        },
+        "deposit": null,
+        "payment": 63,
+        "payments": [],
+        "invoices": {
+          "637e9130c441e934aaf087c9": {
+            "_id": "637e9130c441e934aaf087c9",
+            "dueAt": "2022-11-23T20:00:00.000Z",
+            "active": true,
+            "settled": false,
+            "accountId": "63651f29e67d2a4dfa046a00",
+            "paid": false,
+            "items": [
+              {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            ],
+            "payments": [],
+            "fee": 0,
+            "feeSettled": false,
+            "updatedAt": "2022-11-23T21:31:28.536Z",
+            "createdAt": "2022-11-23T21:31:28.130Z",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "propertyId": "5ffce942b21f15002662241e",
+            "appliedTaxes": {},
+            "feelessTotal": 63,
+            "history": [
+              {
+                "time": "2022-11-23T21:31:28.249Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 60,
+                  "description": "Days (November - A)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcec0fb21f15002662242b",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                  }
+                }
+              },
+              {
+                "time": "2022-11-23T21:31:28.250Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 60,
+                  "total": 63,
+                  "feelessTotal": 63,
+                  "itemTaxes": 3,
+                  "otherTaxes": 0,
+                  "remainingBalance": 63,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-23T21:31:28.301Z",
+                "who": null,
+                "addTaxes": []
+              },
+              {
+                "time": "2022-11-23T21:31:28.532Z",
+                "who": {
+                  "userId": "635980e6bd785bc7abfa5f3a",
+                  "name": "Sergey  Kazakov"
+                },
+                "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+              }
+            ],
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 3
+              }
+            ],
+            "itemTaxes": 3,
+            "otherTaxes": 0,
+            "remainingBalance": 63,
+            "subtotal": 60,
+            "taxes": [],
+            "total": 63,
+            "link": {
+              "type": "reservation",
+              "id": "637e912fc441e9b73bf087c8"
+            },
+            "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+          }
+        },
+        "paid": 0
+      },
+      "items": null,
+      "holdIds": null,
+      "status": "confirmed",
+      "initiator": {
+        "client": {
+          "_id": "5ced9f7602854a0025e4b754",
+          "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+          "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+          "role": "basic",
+          "updatedAt": "2020-06-24T20:21:46.811Z",
+          "createdAt": "2019-05-28T20:52:06.276Z",
+          "name": "Main App",
+          "roles": [
+            "admin",
+            "hidden-manager",
+            "sameday",
+            "warn-blacklist",
+            "advance"
+          ]
+        },
+        "startClient": "manual",
+        "token": null,
+        "affiliateId": null
+      },
+      "createUser": "635980e6bd785bc7abfa5f3a",
+      "updatedAt": "2022-12-01T22:46:23.627Z",
+      "createdAt": "2022-11-23T21:31:27.820Z",
+      "notes": [],
+      "actions": [
+        {
+          "action": "createdBy",
+          "timestamp": "2022-11-23T21:31:28.022Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "confirm"
+          },
+          "timestamp": "2022-11-23T21:31:28.433Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "send-confirmation"
+          },
+          "timestamp": "2022-11-23T21:32:07.958Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "change-stay",
+            "delta": {
+              "arrival": [
+                "2022-11-23T12:00:00.000-08:00",
+                "2022-12-06T12:00:00.000+00:00"
+              ],
+              "departure": [
+                "2022-11-24T11:59:00.000-08:00",
+                "2022-12-09T11:59:00.000+00:00"
+              ]
+            }
+          },
+          "timestamp": "2022-12-01T13:22:39.950Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "check-in"
+          },
+          "timestamp": "2022-12-01T22:46:23.620Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        }
+      ],
+      "cost": {
+        "cost": 157.5,
+        "invoice": {
+          "_id": "637e9130c441e934aaf087c9",
+          "dueAt": "2022-12-06T12:00:00.000Z",
+          "active": false,
+          "settled": false,
+          "accountId": "63651f29e67d2a4dfa046a00",
+          "paid": false,
+          "items": [
+            {
+              "amount": 50,
+              "description": "Days (A)",
+              "category": "reservation",
+              "quantity": 3,
+              "options": {
+                "siteTypeId": "5ffcec0fb21f15002662242b",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 7.5
+              }
+            }
+          ],
+          "payments": [
+            {
+              "paymentAt": "2022-11-29T16:39:04.743Z",
+              "amount": 63,
+              "tender": "cash",
+              "currency": "CAD"
+            }
+          ],
+          "fee": 0,
+          "feeSettled": false,
+          "updatedAt": "2022-12-01T13:22:39.962Z",
+          "createdAt": "2022-11-23T21:31:28.130Z",
+          "organizationId": "586b2b5e8dc42564c94af108",
+          "propertyId": "5ffce942b21f15002662241e",
+          "appliedTaxes": {},
+          "feelessTotal": 157.5,
+          "history": [
+            {
+              "time": "2022-11-23T21:31:28.249Z",
+              "who": null,
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - A)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-23T21:31:28.250Z",
+              "who": null,
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-23T21:31:28.301Z",
+              "who": null,
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-23T21:31:28.532Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-11-29T16:39:04.690Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            },
+            {
+              "time": "2022-11-29T16:39:04.743Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addPayment": {
+                "paymentAt": "2022-11-29T16:39:04.743Z",
+                "amount": 63,
+                "tender": "cash",
+                "currency": "CAD"
+              }
+            },
+            {
+              "time": "2022-11-29T16:39:04.753Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "settle": {
+                "tender": "cash",
+                "currency": "CAD",
+                "capture": true,
+                "amount": null,
+                "active": false,
+                "settled": true,
+                "paid": true
+              }
+            },
+            {
+              "time": "2022-12-01T13:22:39.951Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "removeLineItem": {
+                "index": 0
+              }
+            },
+            {
+              "time": "2022-12-01T13:22:39.951Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 0,
+                "total": 0,
+                "feelessTotal": 0,
+                "itemTaxes": 0,
+                "otherTaxes": 0,
+                "remainingBalance": -63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-12-01T13:22:39.953Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addLineItem": {
+                "amount": 50,
+                "description": "Days (A)",
+                "category": "reservation",
+                "quantity": 3,
+                "options": {
+                  "siteTypeId": "5ffcec0fb21f15002662242b",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 7.5
+                }
+              }
+            },
+            {
+              "time": "2022-12-01T13:22:39.953Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "updatedTotal": {
+                "subtotal": 150,
+                "total": 157.5,
+                "feelessTotal": 157.5,
+                "itemTaxes": 7.5,
+                "otherTaxes": 0,
+                "remainingBalance": 94.5,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-12-01T13:22:39.953Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "addTaxes": []
+            }
+          ],
+          "itemTaxBreakdown": [
+            {
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "value": 7.5
+            }
+          ],
+          "itemTaxes": 7.5,
+          "otherTaxes": 0,
+          "remainingBalance": 94.5,
+          "subtotal": 150,
+          "taxes": [],
+          "total": 157.5,
+          "link": {
+            "type": "reservation",
+            "id": "637e912fc441e9b73bf087c8"
+          },
+          "connectAccount": "acct_1I7QFNI6tgpNKbuz",
+          "settledAt": "2022-11-29T16:39:04.743Z",
+          "settlementTender": "cash"
+        }
+      },
+      "checkedIn": "2022-12-01T22:46:23.619Z",
+      "sites": [
+        {
+          "_id": "5ffcede627da970026c9a7f3",
+          "name": "A",
+          "siteType": "5ffcec0fb21f15002662242b",
+          "description": "30 Amp Back In",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "30A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "backIn": true,
+          "images": [
+            {
+              "imagePath": "PPCamp7.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PPCamp7.jpg",
+              "width": 1024,
+              "height": 682,
+              "ratio": 1.501466275659824,
+              "smallThumbnail": "PPCamp7_200_thumb.jpg",
+              "smallThumbnailWebp": "PPCamp7_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.203125,
+              "mediumThumbnail": "PPCamp7_600_thumb.jpg",
+              "mediumThumbnailWebp": "PPCamp7_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 399.609375,
+              "largeThumbnail": "PPCamp7_900_thumb.jpg",
+              "largeThumbnailWebp": "PPCamp7_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 599.4140625,
+              "xLarge": "PPCamp7_900_thumb.jpg",
+              "xLargeWebp": "PPCamp7_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 599.4140625,
+              "xxLarge": "PPCamp7_900_thumb.jpg",
+              "xxLargeWebp": "PPCamp7_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 599.4140625
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2022-11-23T23:03:42.387Z",
+          "createdAt": "2021-01-12T00:31:34.730Z",
+          "hidden": false,
+          "type": {
+            "_id": "5ffcec0fb21f15002662242b",
+            "name": "30 Amp Back In",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "30 Amp Back In",
+            "rates": {
+              "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+              "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T19:37:43.398Z",
+            "createdAt": "2021-01-12T00:23:43.089Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": false
+          },
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              -125.11965064465882,
+              49.87043486346454
+            ]
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcec0fb21f15002662242b",
+        "name": "30 Amp Back In",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Back In",
+        "rates": {
+          "nightly": "677b3693-0c34-427a-b164-5a326eb36005",
+          "weekly": "36d80c8e-9536-44e4-81d0-3172e7a6ea91",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T19:37:43.398Z",
+        "createdAt": "2021-01-12T00:23:43.089Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    },
+    {
+      "_id": "63863ba3c441e928f1f090d3",
+      "propertyId": "5ffce942b21f15002662241e",
+      "siteIds": [
+        "5ffced7a27da970026c9a7f2"
+      ],
+      "siteType": "5ffcebf727da970026c9a7e5",
+      "arrival": "2022-11-29T20:00:00.000Z",
+      "departure": "2022-11-30T19:59:00.000Z",
+      "camperInfo": {
+        "accountId": "637e9169c441e96c14f087ca",
+        "guests": {
+          "adults": 2,
+          "children": 2,
+          "pets": 0
+        },
+        "goodSamMembership": {
+          "goodSamId": ""
+        },
+        "privateNote": "",
+        "publicNote": "",
+        "rigType": "Motorhome",
+        "rigLength": 30,
+        "driverSlide": true,
+        "firstName": "Evgeniia",
+        "lastName": "Galantceva",
+        "email": "egalantceva@quintegro.com"
+      },
+      "paymentInfo": {
+        "paymentAmount": null,
+        "cost": {
+          "cost": 63,
+          "invoice": {
+            "_id": "63863ba4c441e9c2edf090d4",
+            "active": true,
+            "settled": false,
+            "paid": false,
+            "items": [
+              {
+                "amount": 60,
+                "description": "Days (November - R2)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcebf727da970026c9a7e5",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            ],
+            "propertyId": "5ffce942b21f15002662241e",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "payments": [],
+            "taxes": [],
+            "dueAt": "2022-11-29T20:00:00.000Z",
+            "feelessTotal": 63,
+            "fee": 0,
+            "feeSettled": false,
+            "subtotal": 60,
+            "total": 63,
+            "remainingBalance": 63,
+            "itemTaxes": 3,
+            "otherTaxes": 0,
+            "appliedTaxes": {},
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 3
+              }
+            ],
+            "accountId": "637e9169c441e96c14f087ca",
+            "updatedAt": "2022-11-29T17:04:36.403Z",
+            "createdAt": "2022-11-29T17:04:36.134Z",
+            "history": [
+              {
+                "time": "2022-11-29T17:04:36.325Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 60,
+                  "description": "Days (November - R2)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcebf727da970026c9a7e5",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                  }
+                }
+              },
+              {
+                "time": "2022-11-29T17:04:36.330Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 60,
+                  "total": 63,
+                  "feelessTotal": 63,
+                  "itemTaxes": 3,
+                  "otherTaxes": 0,
+                  "remainingBalance": 63,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-29T17:04:36.337Z",
+                "who": null,
+                "addTaxes": []
+              }
+            ]
+          }
+        },
+        "deposit": null,
+        "payment": 63,
+        "payments": [],
+        "invoices": {
+          "63863ba4c441e9c2edf090d4": {
+            "_id": "63863ba4c441e9c2edf090d4",
+            "dueAt": "2022-11-29T20:00:00.000Z",
+            "active": true,
+            "settled": false,
+            "accountId": "637e9169c441e96c14f087ca",
+            "paid": false,
+            "items": [
+              {
+                "amount": 60,
+                "description": "Days (November - R2)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcebf727da970026c9a7e5",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            ],
+            "payments": [],
+            "fee": 0,
+            "feeSettled": false,
+            "updatedAt": "2022-11-29T17:04:37.056Z",
+            "createdAt": "2022-11-29T17:04:36.134Z",
+            "organizationId": "586b2b5e8dc42564c94af108",
+            "propertyId": "5ffce942b21f15002662241e",
+            "appliedTaxes": {},
+            "feelessTotal": 63,
+            "history": [
+              {
+                "time": "2022-11-29T17:04:36.325Z",
+                "who": null,
+                "addLineItem": {
+                  "amount": 60,
+                  "description": "Days (November - R2)",
+                  "category": "reservation",
+                  "quantity": 1,
+                  "options": {
+                    "siteTypeId": "5ffcebf727da970026c9a7e5",
+                    "days": true
+                  },
+                  "taxes": [
+                    {
+                      "type": "percentage",
+                      "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                      "name": "GST",
+                      "value": 0.05
+                    }
+                  ],
+                  "appliedTaxes": {
+                    "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                  }
+                }
+              },
+              {
+                "time": "2022-11-29T17:04:36.330Z",
+                "who": null,
+                "updatedTotal": {
+                  "subtotal": 60,
+                  "total": 63,
+                  "feelessTotal": 63,
+                  "itemTaxes": 3,
+                  "otherTaxes": 0,
+                  "remainingBalance": 63,
+                  "depositSubtotal": null,
+                  "depositTax": null,
+                  "depositTotal": null
+                }
+              },
+              {
+                "time": "2022-11-29T17:04:36.337Z",
+                "who": null,
+                "addTaxes": []
+              },
+              {
+                "time": "2022-11-29T17:04:37.043Z",
+                "who": {
+                  "userId": "635980e6bd785bc7abfa5f3a",
+                  "name": "Sergey  Kazakov"
+                },
+                "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+              }
+            ],
+            "itemTaxBreakdown": [
+              {
+                "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                "value": 3
+              }
+            ],
+            "itemTaxes": 3,
+            "otherTaxes": 0,
+            "remainingBalance": 63,
+            "subtotal": 60,
+            "taxes": [],
+            "total": 63,
+            "link": {
+              "type": "reservation",
+              "id": "63863ba3c441e928f1f090d3"
+            },
+            "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+          }
+        },
+        "paid": 0
+      },
+      "items": null,
+      "holdIds": null,
+      "status": "confirmed",
+      "initiator": {
+        "client": {
+          "_id": "5ced9f7602854a0025e4b754",
+          "clientId": "2866651c-84fb-489f-9c30-7a21f60e9357",
+          "clientSecret": "hm3pKuT7BzsS12olp9AAKj6vL2Ouxpnt2tQwQcOLltJJixoEa3mK0cSlHIuLhxw16EPER4XZuZBVLY8IsAwhemmFzNb7qMGbnIqQY9Hic3LH6TazbR2HEDme7XrJHX2r",
+          "role": "basic",
+          "updatedAt": "2020-06-24T20:21:46.811Z",
+          "createdAt": "2019-05-28T20:52:06.276Z",
+          "name": "Main App",
+          "roles": [
+            "admin",
+            "hidden-manager",
+            "sameday",
+            "warn-blacklist",
+            "advance"
+          ]
+        },
+        "startClient": "manual",
+        "token": null,
+        "affiliateId": null
+      },
+      "createUser": "635980e6bd785bc7abfa5f3a",
+      "updatedAt": "2022-11-29T17:04:45.965Z",
+      "createdAt": "2022-11-29T17:04:35.431Z",
+      "notes": [],
+      "actions": [
+        {
+          "action": "createdBy",
+          "timestamp": "2022-11-29T17:04:35.823Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "confirm"
+          },
+          "timestamp": "2022-11-29T17:04:36.748Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        },
+        {
+          "action": "update",
+          "update": {
+            "type": "send-confirmation"
+          },
+          "timestamp": "2022-11-29T17:04:45.957Z",
+          "userId": "635980e6bd785bc7abfa5f3a"
+        }
+      ],
+      "cost": {
+        "cost": 63,
+        "invoice": {
+          "_id": "63863ba4c441e9c2edf090d4",
+          "dueAt": "2022-11-29T20:00:00.000Z",
+          "active": true,
+          "settled": false,
+          "accountId": "637e9169c441e96c14f087ca",
+          "paid": false,
+          "items": [
+            {
+              "amount": 60,
+              "description": "Days (November - R2)",
+              "category": "reservation",
+              "quantity": 1,
+              "options": {
+                "siteTypeId": "5ffcebf727da970026c9a7e5",
+                "days": true
+              },
+              "taxes": [
+                {
+                  "type": "percentage",
+                  "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                  "name": "GST",
+                  "value": 0.05
+                }
+              ],
+              "appliedTaxes": {
+                "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+              }
+            }
+          ],
+          "payments": [],
+          "fee": 0,
+          "feeSettled": false,
+          "updatedAt": "2022-11-29T17:04:37.056Z",
+          "createdAt": "2022-11-29T17:04:36.134Z",
+          "organizationId": "586b2b5e8dc42564c94af108",
+          "propertyId": "5ffce942b21f15002662241e",
+          "appliedTaxes": {},
+          "feelessTotal": 63,
+          "history": [
+            {
+              "time": "2022-11-29T17:04:36.325Z",
+              "who": null,
+              "addLineItem": {
+                "amount": 60,
+                "description": "Days (November - R2)",
+                "category": "reservation",
+                "quantity": 1,
+                "options": {
+                  "siteTypeId": "5ffcebf727da970026c9a7e5",
+                  "days": true
+                },
+                "taxes": [
+                  {
+                    "type": "percentage",
+                    "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+                    "name": "GST",
+                    "value": 0.05
+                  }
+                ],
+                "appliedTaxes": {
+                  "01bde0a3-135b-46b1-9415-43c3c5616b6f": 3
+                }
+              }
+            },
+            {
+              "time": "2022-11-29T17:04:36.330Z",
+              "who": null,
+              "updatedTotal": {
+                "subtotal": 60,
+                "total": 63,
+                "feelessTotal": 63,
+                "itemTaxes": 3,
+                "otherTaxes": 0,
+                "remainingBalance": 63,
+                "depositSubtotal": null,
+                "depositTax": null,
+                "depositTotal": null
+              }
+            },
+            {
+              "time": "2022-11-29T17:04:36.337Z",
+              "who": null,
+              "addTaxes": []
+            },
+            {
+              "time": "2022-11-29T17:04:37.043Z",
+              "who": {
+                "userId": "635980e6bd785bc7abfa5f3a",
+                "name": "Sergey  Kazakov"
+              },
+              "connectToAccount": "acct_1I7QFNI6tgpNKbuz"
+            }
+          ],
+          "itemTaxBreakdown": [
+            {
+              "id": "01bde0a3-135b-46b1-9415-43c3c5616b6f",
+              "value": 3
+            }
+          ],
+          "itemTaxes": 3,
+          "otherTaxes": 0,
+          "remainingBalance": 63,
+          "subtotal": 60,
+          "taxes": [],
+          "total": 63,
+          "link": {
+            "type": "reservation",
+            "id": "63863ba3c441e928f1f090d3"
+          },
+          "connectAccount": "acct_1I7QFNI6tgpNKbuz"
+        }
+      },
+      "sites": [
+        {
+          "_id": "5ffced7a27da970026c9a7f2",
+          "name": "R2",
+          "siteType": "5ffcebf727da970026c9a7e5",
+          "description": "30 Amp Pull Through",
+          "length": 30,
+          "overhead": 30,
+          "guestLimit": "",
+          "electrical": [
+            "30A"
+          ],
+          "water": true,
+          "sewage": true,
+          "driverSlide": true,
+          "passengerSlide": true,
+          "pullThrough": true,
+          "images": [
+            {
+              "imagePath": "PPCamp4.jpg",
+              "relativePath": "property/5ffce942b21f15002662241e/PPCamp4.jpg",
+              "width": 1024,
+              "height": 683,
+              "ratio": 1.499267935578331,
+              "smallThumbnail": "PPCamp4_200_thumb.jpg",
+              "smallThumbnailWebp": "PPCamp4_200_thumb.webp",
+              "smallThumbnailWidth": 200,
+              "smallThumbnailHeight": 133.3984375,
+              "mediumThumbnail": "PPCamp4_600_thumb.jpg",
+              "mediumThumbnailWebp": "PPCamp4_600_thumb.webp",
+              "mediumThumbnailWidth": 600,
+              "mediumThumbnailHeight": 400.1953125,
+              "largeThumbnail": "PPCamp4_900_thumb.jpg",
+              "largeThumbnailWebp": "PPCamp4_900_thumb.webp",
+              "largeThumbnailWidth": 900,
+              "largeThumbnailHeight": 600.29296875,
+              "xLarge": "PPCamp4_900_thumb.jpg",
+              "xLargeWebp": "PPCamp4_900_thumb.webp",
+              "xLargeWidth": 900,
+              "xLargeHeight": 600.29296875,
+              "xxLarge": "PPCamp4_900_thumb.jpg",
+              "xxLargeWebp": "PPCamp4_900_thumb.webp",
+              "xxLargeWidth": 900,
+              "xxLargeHeight": 600.29296875
+            }
+          ],
+          "rates": {},
+          "propertyId": "5ffce942b21f15002662241e",
+          "updatedAt": "2021-01-12T00:29:46.274Z",
+          "createdAt": "2021-01-12T00:29:46.248Z",
+          "type": {
+            "_id": "5ffcebf727da970026c9a7e5",
+            "name": "30 Amp Pull Through",
+            "types": [
+              "rv"
+            ],
+            "guestLimit": "",
+            "description": "30 Amp Pull Through",
+            "rates": {
+              "nightly": "29c34713-b144-4d8f-9e5c-fbc993939bdb",
+              "weekly": "ab1f7bf4-9e6e-48d8-b022-e0e1c24eba2e",
+              "monthly": ""
+            },
+            "images": "",
+            "taxes": "",
+            "checkIn": "",
+            "checkOut": "",
+            "welcomeMessage": "",
+            "propertyId": "5ffce942b21f15002662241e",
+            "updatedAt": "2022-03-17T20:43:59.384Z",
+            "createdAt": "2021-01-12T00:23:19.807Z",
+            "guests": {
+              "adults": {
+                "function": ">",
+                "number": ""
+              },
+              "children": {
+                "function": ">",
+                "number": ""
+              },
+              "pets": {
+                "function": ">",
+                "number": ""
+              }
+            },
+            "noPets": false
+          }
+        }
+      ],
+      "type": {
+        "_id": "5ffcebf727da970026c9a7e5",
+        "name": "30 Amp Pull Through",
+        "types": [
+          "rv"
+        ],
+        "guestLimit": "",
+        "description": "30 Amp Pull Through",
+        "rates": {
+          "nightly": "29c34713-b144-4d8f-9e5c-fbc993939bdb",
+          "weekly": "ab1f7bf4-9e6e-48d8-b022-e0e1c24eba2e",
+          "monthly": ""
+        },
+        "images": "",
+        "taxes": "",
+        "checkIn": "",
+        "checkOut": "",
+        "welcomeMessage": "",
+        "propertyId": "5ffce942b21f15002662241e",
+        "updatedAt": "2022-03-17T20:43:59.384Z",
+        "createdAt": "2021-01-12T00:23:19.807Z",
+        "guests": {
+          "adults": {
+            "function": ">",
+            "number": ""
+          },
+          "children": {
+            "function": ">",
+            "number": ""
+          },
+          "pets": {
+            "function": ">",
+            "number": ""
+          }
+        },
+        "noPets": false
+      }
+    }
+  ]

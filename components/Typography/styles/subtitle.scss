@@ -1,0 +1,58 @@
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  color: $c-tertiary;
+
+  &--l {
+    @include h5-default;
+  }
+
+  &--m {
+    @include h6-default;
+  }
+
+  &--m-fixed {
+    @include h6-default-fixed;
+  }
+
+  &--s {
+    padding: 8px 0;
+    font-size: 16px;
+    line-height: 24px;
+
+    @media (min-width: $media-s) {
+      padding: 16px 0 12px 0;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+
+  &--s-fixed {
+    padding: 16px 0 12px 0;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &--l-h6 {
+    @media (width >= $media-l) {
+      @include h6-default-fixed;
+    }
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--t-0 {
+    padding-top: 0;
+  }
+
+  &--b-0 {
+    padding-bottom: 0;
+  }
+
+  &--nop {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

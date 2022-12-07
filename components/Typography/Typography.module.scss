@@ -1,0 +1,29 @@
+@import 'styles';
+
+.headline {
+  @extend .headline;
+}
+
+.title {
+  @extend .title;
+}
+
+.subtitle {
+  @extend .subtitle;
+}
+
+.body {
+  @extend .body;
+}
+
+.overline {
+  @extend .overline;
+}
+
+.link {
+  @extend .link;
+}
+
+.caption {
+  @extend .caption;
+}

@@ -1,0 +1,79 @@
+$c-primary: #c1122a;
+$c-primary-dark: #aa1025;
+$c-primary-light: #d8142f;
+$c-primary-disabled: change-color($c-primary, $alpha: 0.5);
+$c-primary-disabled-no-alpha: #7fb2ce;
+
+$c-primary-inverse-hover: #dee3e8;
+$c-primary-inverse-disabled: rgba(255, 255, 255, 0.4);
+
+$c-secondary-inverse-hover: rgba(255, 255, 255, 0.25);
+$c-secondary-inverse-focused: rgba(0, 0, 0, 0.25);
+$c-secondary-inverse-disabled: rgba(255, 255, 255, 0.4);
+
+$c-secondary: #dc982e;
+$c-secondary-dark: #b87c1f;
+$c-secondary-light: #e7b870;
+$c-secondary-lighter: #f5e2c5;
+$c-secondary-lightest: #fbf4ea;
+$c-secondary-disabled: change-color($c-secondary, $alpha: 0.5);
+
+$c-tertiary: #474342;
+$c-tertiary-dark: #2d2a29;
+$c-tertiary-light: #757272;
+
+$c-quaternary: #eaecef;
+$c-quaternary-dark: #bfc5ce;
+$c-quaternary-light: #f8f9fa;
+
+$c-white: #ffffff;
+$c-white-inactive: change-color($c-white, $alpha: 0.5);
+$c-grey-cool: #f4f6f8;
+$c-grey: #c4cdd5;
+$c-grey-tone: change-color($c-grey, $alpha: 0.5);
+$c-charcoal: #656d76;
+$c-black: #000000;
+$c-black-hover: #e6e6e6;
+$c-black-tone: change-color($c-black, $alpha: 0.2);
+$c-gs-grey-tone: rgba(196, 205, 213, 0.2);
+
+$c-field: $c-tertiary;
+$c-field-border: $c-quaternary-dark;
+$c-field-border-focused: $c-tertiary;
+$c-field-border-disabled: $c-field-border;
+$c-field-background-disabled: $c-quaternary;
+$c-field-helpers: $c-tertiary-light;
+$c-field-toggle-shadow: change-color($c-black, $alpha: 0.5);
+$c-field-placeholder: $c-tertiary-light;
+
+$c-status-default: #c4cdd5;
+$c-status-default-light: #edf0f2;
+$c-status-warning: #ff9745;
+$c-status-warning-light: #ffeada;
+$c-status-error: #d0021b;
+$c-status-error-light: #fae6e8;
+$c-status-success: #39842b;
+$c-status-success-light: #d7e6d5;
+$c-status-info: #9b6cfc;
+$c-status-info-light: #ebe2fe;
+
+$c-status-success-transparent: change-color($c-status-success, $alpha: 0.2);
+$c-status-warning-transparent: change-color($c-status-warning, $alpha: 0.2);
+$c-status-error-transparent: change-color($c-status-error, $alpha: 0.2);
+$c-status-info-transparent: change-color($c-status-info, $alpha: 0.2);
+$c-status-default-transparent: change-color($c-status-default, $alpha: 0.3);
+
+$c-icon-a: #00669e;
+$c-icon-b: #f1be48;
+$c-icon-dark: #474342;
+$c-icon-light: #c4cdd5;
+$c-icon-white: #ffffff;
+
+$c-scrollbar-thumb-bg: $c-grey;
+$c-scrollbar-track-bg: transparent;
+$c-datepicker-range: rgba(87, 166, 155, 0.3);
+
+$c-card-base: #50B83C;
+$c-card-tick: $c-status-success;
+$c-card-bg-hover: change-color($c-card-base, $alpha: 0.05);
+$c-card-bg-checked: change-color($c-card-base, $alpha: 0.1);

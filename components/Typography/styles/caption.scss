@@ -1,0 +1,13 @@
+.caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: $c-tertiary;
+  @media (width >= $media-s) {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

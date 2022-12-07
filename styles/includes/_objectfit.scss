@@ -1,0 +1,28 @@
+@mixin ofi-cover-ct {
+  object-fit: cover;
+  object-position: center 0;
+}
+
+@mixin ofi-cover-lt {
+  object-fit: cover;
+  object-position: 0 0;
+}
+@mixin ofi-cover-lc {
+  object-fit: cover;
+  object-position: 0 50%;
+}
+
+@mixin ofi-cover-cc {
+  object-fit: cover;
+  object-position: center center;
+}
+
+@mixin ofi-contain-lt {
+  object-fit: contain;
+  object-position: 0 0;
+}
+
+@mixin ofi-contain-cc {
+  object-fit: contain;
+  object-position: center center;
+}

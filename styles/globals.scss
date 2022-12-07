@@ -1,0 +1,117 @@
+@import '~modern-css-reset';
+@import './includes/index.scss';
+@import '../components/Typography/styles/_TypographyMixins.scss';
+
+body {
+  font-family: $font-family-base;
+  color: $c-tertiary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: bold;
+  color: $c-tertiary;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  @include h1-default;
+}
+
+h2 {
+  @include h2-default;
+}
+
+h3 {
+  @include h3-default;
+}
+
+h4 {
+  @include h4-default;
+}
+
+h5 {
+  @include h5-default;
+}
+
+h6 {
+  @include h6-default;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  color: $c-tertiary;
+  margin-top: 0;
+  margin-bottom: 0;
+  @include p-default;
+}
+
+strong {
+  font-weight: bold;
+}
+
+caption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: $c-tertiary;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: $c-tertiary;
+}
+
+a {
+  @include link-default;
+}
+
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+
+&[class^="overlay-open"] {
+   overflow: hidden;
+ }
+
+&[class^="overlay-open-fixed"] {
+   height: 100%;
+   width: 100%;
+   position: fixed;
+ }
+}
+
+/**
+ * Expose a hooks for JavaScript when autofill is shown/cancel
+ * JavaScript can capture animation events
+ */
+input:-webkit-autofill {
+@keyframes onAutoFillStart {
+  0% {
+    content: '';
+  }
+}
+@keyframes onAutoFillCancel {
+  0% {
+    content: '';
+  }
+}
+animation-name: onAutoFillStart;
+}
+
+input:not(:-webkit-autofill) {
+  animation-name: onAutoFillCancel;
+}

@@ -1,0 +1,23 @@
+.overline {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  &--s {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  &--above-title-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: -32px;
+    @media (width >= $media-l) {
+      margin-bottom: -40px;
+    }
+  }
+}
