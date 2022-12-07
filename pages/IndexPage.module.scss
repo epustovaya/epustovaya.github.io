@@ -1,0 +1,48 @@
+@import './includes/index.scss';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 60px;
+  background-color: $c-quaternary-light;
+}
+.headerContent {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  flex: 1;
+  margin-bottom: 60px;
+
+  @include atSmall {
+    padding-bottom: 60px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+
+  @include atMedium {
+    max-width: 960px;
+  }
+
+  @include atLarge {
+    max-width: 1296px;
+  }
+
+  @include atXXLarge {
+    max-width: 1552px;
+  }
+}
+.footer {
+  padding: 40px 72px 60px;
+  background-color: $c-tertiary-dark;
+  color: $c-white;
+}
