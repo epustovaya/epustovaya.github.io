@@ -14,6 +14,7 @@
     "@types/react-dom": "18.0.9",
     "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
+    "input-format": "^0.3.8",
     "modern-css-reset": "^1.4.0",
     "next": "13.0.6",
     "react": "18.2.0",
