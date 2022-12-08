@@ -28,13 +28,16 @@ export const ReservationListItem: FC<ReservationListItemProps> =
 
       return (
         <div className={classes.row}>
-          <div className={classes.innerRow}>
+          <div className={clsx(classes.innerRow, classes.innerRow_first)}>
             {RESERVATION_LIST_COLUMNS_FIRST_ROW.map((column: Column) => {
               const { label, propName } = column;
               const value = preparedItem[propName];
 
               return (
-                <div className={clsx(classes.col, classes[`col_${propName}`])}>
+                <div
+                  key={label}
+                  className={clsx(classes.col, classes[`col_${propName}`])}
+                >
                   <Typography
                     noPadding
                     variant="body"
@@ -65,13 +68,14 @@ export const ReservationListItem: FC<ReservationListItemProps> =
 
           <Divider className={classes.dividerLaptop} />
 
-          <div className={classes.innerRow}>
+          <div className={clsx(classes.innerRow, classes.innerRow_second)}>
             {RESERVATION_LIST_COLUMNS_SECOND_ROW.map((column: Column) => {
               const { propName, renderIcon, label } = column;
               const value = preparedItem[propName];
 
               return (
                 <div
+                  key={label}
                   className={clsx(
                     classes.col,
                     classes[`col_${propName}`],

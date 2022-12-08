@@ -36,11 +36,23 @@
     flex-direction: row;
     align-items: center;
   }
+
+  &_first {
+    @include atMedium {
+      width: 67.2%;
+    }
+  }
+  &_second {
+    @include atMedium {
+      width: 32.8%;
+    }
+  }
 }
 
 .col {
   display: flex;
   padding: 8px 0;
+  box-sizing: border-box;
 
   &_status {
     padding: 0;
@@ -62,6 +74,7 @@
 
     &_id {
       width: 14.2%;
+      padding-left: 0;
     }
     &_site {
       width: 10.8%;
@@ -100,27 +113,48 @@
   @include atMedium {
     align-items: center;
     flex-direction: row;
-    width: calc(100% / 5);
+    padding: 0 16px;
 
     &_id {
+      width: 10.8%;
+      padding-left: 0;
     }
     &_site {
+      width: 8.6%;
     }
     &_type {
+      width: 23.4%;
     }
     &_dates {
+      width: 31%;
     }
     &_name {
+      width: 28.1%;
     }
     &_phoneNumber {
+      width: 18px;
+      border-right: none;
+      padding: 0;
+      margin-right: 8px;
     }
     &_email {
+      width: 18px;
+      border-right: none;
+      padding: 0;
+      margin-right: 8px;
     }
     &_rig {
+      width: 18px;
+      border-right: none;
+      padding: 0;
+      margin-right: 8px;
     }
     &_status {
+      padding: 0;
     }
     &_price {
+      padding: 0;
+      justify-content: flex-end;
     }
   }
 
@@ -156,16 +190,6 @@
   @include atSmall {
     padding-top: 8px;
 
-    &_id {
-    }
-    &_site {
-    }
-    &_type {
-    }
-    &_dates {
-    }
-    &_name {
-    }
     &_phoneNumber {
       display: none;
     }
@@ -175,10 +199,9 @@
     &_rig {
       display: none;
     }
-    &_status {
-    }
-    &_price {
-    }
+  }
+  @include atMedium {
+    display: none;
   }
 }
 
@@ -196,21 +219,9 @@
   &_name,
   &_phoneNumber,
   &_email {
-    color: $c-primary;
+    color: $c-primary !important;
   }
 
-  &_id {
-  }
-  &_site {
-  }
-  &_type {
-  }
-  &_dates {
-  }
-  &_name {
-  }
-  &_rig {
-  }
   &_price {
     text-align: right;
   }
@@ -218,20 +229,14 @@
   @include atSmall {
     padding: 8px 0;
 
-    &_id {
-    }
-    &_site {
-    }
-    &_type {
-    }
-    &_dates {
-    }
-    &_name {
-    }
     &_rig {
       display: none;
     }
-    &_price {
+  }
+
+  @include atMedium {
+    &_phoneNumber, &_email, &_rig  {
+      display: none;
     }
   }
 }
