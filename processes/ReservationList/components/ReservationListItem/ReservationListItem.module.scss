@@ -37,14 +37,21 @@
     align-items: center;
   }
 
-  &_first {
-    @include atMedium {
+  @include atMedium {
+    &_first {
       width: 67.2%;
     }
-  }
-  &_second {
-    @include atMedium {
+    &_second {
       width: 32.8%;
+    }
+  }
+
+  @include atLarge {
+    &_first {
+      width: 65%;
+    }
+    &_second {
+      width: 35%;
     }
   }
 }
@@ -159,26 +166,11 @@
   }
 
   @include atLarge {
-    &_id {
-    }
-    &_site {
-    }
-    &_type {
-    }
-    &_dates {
-    }
-    &_name {
-      border-right: 1px solid $c-quaternary;
-    }
-    &_phoneNumber {
-    }
-    &_email {
-    }
     &_rig {
-    }
-    &_status {
+      width: 37%;
     }
     &_price {
+      width: 80px;
     }
   }
 }
@@ -208,6 +200,7 @@
 .valueWrapper {
   display: flex;
   align-items: center;
+  max-width: 100%;
 }
 
 .value {
@@ -235,14 +228,28 @@
   }
 
   @include atMedium {
-    &_phoneNumber, &_email, &_rig  {
+    &_phoneNumber,
+    &_email,
+    &_rig {
       display: none;
+    }
+  }
+
+  @include atLarge {
+    &_rig {
+      display: block;
     }
   }
 }
 
 .icon {
   margin-right: 8px;
+
+  @include atLarge {
+    &_rig {
+      display: none;
+    }
+  }
 }
 
 .reservationStatus {
