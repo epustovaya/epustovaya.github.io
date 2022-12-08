@@ -1,18 +1,198 @@
+@import "styles/includes/index.scss";
+
 .row {
   display: flex;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border: 1px solid #EAECEF;
+  padding: 12px 16px;
+  border: 1px solid $c-quaternary;
   border-radius: 8px;
   margin-bottom: 24px;
+  flex-direction: column;
+
+  @include atMedium {
+    padding: 8px 16px;
+    flex-direction: row;
+  }
+  @include atLarge {
+    padding: 8px 32px;
+  }
+}
+.innerRow {
+  display: flex;
+  flex-direction: column;
+
+  &_statusPrice {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 12px;
+
+    @include atSmall {
+      padding-bottom: 0;
+    }
+  }
+
+  @include atSmall {
+    flex-direction: row;
+  }
 }
 
 .col {
-  padding-left: 16px;
-  padding-right: 16px;
-  border-right: 1px solid #EAECEF;
+  display: flex;
+  padding: 8px 0;
 
-  &:last-child {
+  @include atSmall {
+    flex-direction: column;
+    border-right: 1px solid $c-quaternary;
+  }
+
+  @include atMedium {
+    align-items: center;
+    flex-direction: row;
+    width: calc(100% / 5);
+  }
+
+  &_id {
+  }
+  &_site {
+  }
+  &_type {
+  }
+  &_dates {
+  }
+  &_name {
+    border: none;
+
+    @include atLarge {
+      border-right: 1px solid $c-quaternary;
+    }
+  }
+
+  &_rig {
+    border: none;
+    display: none;
+
+    @include atLarge {
+      display: block;
+    }
+  }
+  &_status {
+    padding-right: 0;
+    border: none;
+  }
+  &_price {
+    text-align: right;
     border-right: none;
+  }
+}
+
+.label {
+  color: $c-tertiary-light;
+  width: 106px;
+
+  @include atSmall {
+    &_id {
+    }
+    &_site {
+    }
+    &_type {
+    }
+    &_dates {
+    }
+    &_name {
+    }
+    &_rig {
+    }
+    &_status {
+    }
+    &_price {
+    }
+  }
+}
+
+.valueWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: $c-tertiary;
+
+  &_name, &_phoneNumber, &_email {
+    color: $c-primary;
+  }
+
+  &_id {
+  }
+  &_site {
+  }
+  &_type {
+  }
+  &_dates {
+  }
+  &_name {
+  }
+  &_rig {
+  }
+  &_status {
+    width: 100px;
+    margin-right: 6px;
+  }
+  &_price {
+    text-align: right;
+  }
+
+  @include atSmall {
+    &_id {
+    }
+    &_site {
+    }
+    &_type {
+    }
+    &_dates {
+    }
+    &_name {
+    }
+    &_rig {
+    }
+    &_status {
+    }
+    &_price {
+    }
+  }
+}
+
+.reservationStatus {
+  text-align: center;
+  border-radius: 4px;
+  color: $c-white!important;
+  background-color: $c-status-default;
+  text-transform: uppercase;
+
+  &_paid, &_confirmed {
+background-color: $c-status-success;
+  }
+  &_canceled {
+    background-color: $c-status-default;
+  }
+  &_unpaid {
+    background-color: $c-status-warning;
+  }
+  &_blocked {
+    background-color: $c-status-error;
+  }
+}
+
+.dividerMobile {
+  margin: 24px 0;
+  @include atSmall {
+    display: none;
+  }
+}
+.dividerLaptop {
+  margin: 12px 0;
+  @include atMedium {
+    display: none;
   }
 }

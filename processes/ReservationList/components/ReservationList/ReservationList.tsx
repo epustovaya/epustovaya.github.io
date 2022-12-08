@@ -1,6 +1,6 @@
 import React, { FC, memo } from "react";
 import classes from "./ReservationList.module.scss";
-import { Reservation } from "../../types";
+import { Reservation } from "../../types/apiTypes";
 import { ReservationListItem } from "../ReservationListItem/ReservationListItem";
 
 type ReservationListProps = {

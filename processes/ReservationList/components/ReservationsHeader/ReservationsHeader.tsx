@@ -7,6 +7,4 @@ export const ReservationsHeader: FC<ReservationsHeaderProps> =
     return <div className={classes.root}></div>;
   });
 
-if (process.env.NODE_ENV !== "production") {
-  ReservationsHeader.displayName = "ReservationsHeader";
-}
+ReservationsHeader.displayName = "ReservationsHeader";

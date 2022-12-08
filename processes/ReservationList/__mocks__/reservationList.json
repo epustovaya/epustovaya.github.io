@@ -554,7 +554,7 @@
         "accountId": "",
         "firstName": "Test",
         "lastName": "Test",
-        "phoneNumber": "5086880052",
+        "phoneNumber": "+5086880052",
         "email": "sergey@quintegro.com",
         "guests": {
           "adults": 2,

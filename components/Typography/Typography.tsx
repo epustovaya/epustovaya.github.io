@@ -1,10 +1,10 @@
-import clsx from 'clsx';
-import { TypographyProps } from './Typography.types';
-import classes from './Typography.module.scss';
+import clsx from "clsx";
+import { TypographyProps } from "./Typography.types";
+import classes from "./Typography.module.scss";
 
-const Typography = <E extends HTMLParagraphElement>(props: TypographyProps<E>) => {
+const Typography = <E extends HTMLParagraphElement>(props: TypographyProps) => {
   const {
-    component: Component = 'p',
+    component: Component = "p",
     variant,
     size,
     weight,

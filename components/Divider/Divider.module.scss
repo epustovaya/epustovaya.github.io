@@ -1,0 +1,27 @@
+@import "../../styles/includes";
+
+.default {
+  width: 100%;
+  height: 1px;
+  background: $c-quaternary-dark;
+}
+
+.vertical {
+  width: 1px;
+  height: 100%;
+  background: $c-quaternary-dark;
+  display: inline-block;
+
+  &::after {
+    content: "";
+    display: inline-block;
+  }
+}
+
+.dashed {
+  background: repeating-linear-gradient(to right, $c-quaternary-dark 0px, $c-quaternary-dark 8px, transparent 8px, transparent 16px);
+}
+
+.vertical.dashed {
+  background: repeating-linear-gradient(to bottom, $c-quaternary-dark 0px, $c-quaternary-dark 8px, transparent 8px, transparent 16px);
+}
