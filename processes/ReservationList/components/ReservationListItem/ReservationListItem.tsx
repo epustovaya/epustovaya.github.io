@@ -8,7 +8,6 @@ import Divider from "../../../../components/Divider";
 import {
   RESERVATION_LIST_COLUMNS_FIRST_ROW,
   RESERVATION_LIST_COLUMNS_SECOND_ROW,
-  RESERVATION_LIST_COLUMNS_THIRD_ROW,
 } from "../../constants";
 import { IconSpecificProps } from "../../../../components/Icon/Icon.types";
 

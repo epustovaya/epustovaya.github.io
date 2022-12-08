@@ -1,0 +1,88 @@
+@import "styles/includes/index.scss";
+
+.root {
+  align-items: center;
+  padding: 8px 16px;
+  display: none;
+
+  @include atMedium {
+    display: flex;
+  }
+
+  @include atLarge {
+    padding: 8px 32px;
+  }
+}
+
+.label {
+  color: $c-tertiary-light;
+  padding-left: 16px;
+
+  &_id {
+    width: 7.1%;
+    padding-left: 0;
+  }
+  &_site {
+    width: 5.8%;
+  }
+  &_type {
+    width: 15.7%;
+  }
+  &_dates {
+    width: 19.7%;
+  }
+  &_name {
+    width: 27.8%;
+  }
+  &_phoneNumber {
+    display: none;
+  }
+  &_email {
+    display: none;
+  }
+  &_rig {
+    display: none;
+  }
+  &_status {
+    width: 9.7%;
+    padding-left: 0;
+  }
+  &_price {
+    justify-content: flex-end;
+  }
+
+  @include atLarge {
+    &_id {
+      width: 7%;
+    }
+    &_site {
+      width: 5.2%;
+    }
+    &_type {
+      width: 15.1%;
+    }
+    &_dates {
+      width: 19.7%;
+    }
+    &_name {
+      width: 20.8%;
+    }
+    &_phoneNumber {
+      display: none;
+    }
+    &_email {
+      display: none;
+    }
+    &_rig {
+      display: block;
+      width: 15.2%;
+    }
+    &_status {
+      width: 8.6%;
+    }
+    &_price {
+      flex: 1;
+      text-align: right;
+    }
+  }
+}

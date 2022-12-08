@@ -220,7 +220,7 @@
   }
 
   @include atSmall {
-    padding: 8px 0;
+    padding: 8px 0!important;
 
     &_rig {
       display: none;

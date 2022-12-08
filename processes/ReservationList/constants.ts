@@ -46,8 +46,10 @@ export const RESERVATION_LIST_COLUMNS_SECOND_ROW = [
 export const RESERVATION_LIST_COLUMNS_THIRD_ROW = [
   {
     propName: "status",
+    label: "Status",
   },
   {
     propName: "price",
+    label: "Price",
   },
 ] as const;
