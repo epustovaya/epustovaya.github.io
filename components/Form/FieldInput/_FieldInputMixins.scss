@@ -1,0 +1,20 @@
+@import "styles/includes";
+
+@mixin autofill($fg: false, $bg: false) {
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active,
+  &:-internal-autofill-previewed,
+  &:-internal-autofill-selected {
+    @content;
+    @if $fg {
+      -webkit-text-fill-color: $fg;
+    }
+    @if $bg {
+      -webkit-box-shadow: 0 0 0 30px $bg inset;
+      box-shadow: 0 0 0 30px $bg inset;
+    }
+  }
+}
+

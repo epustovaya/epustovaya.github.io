@@ -1,0 +1,22 @@
+@import "../../../styles/includes";
+
+.addon {
+  font-size: 24px;
+  position: absolute;
+  right: 13px;
+  top: 14px;
+  pointer-events: none;
+  color: $c-tertiary;
+}
+
+.disabledAddon {
+  composes: addon;
+}
+
+.popper {
+  z-index: 10;
+}
+
+.root {
+  position: relative;
+}

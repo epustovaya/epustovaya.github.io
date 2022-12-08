@@ -1,0 +1,17 @@
+.CheckboxGroup {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &_vertical {
+    display: block;
+  }
+
+  &_inline {
+    display: flex;
+    flex-wrap: wrap;
+    &--nowrap {
+      flex-wrap: nowrap;
+    }
+  }
+}

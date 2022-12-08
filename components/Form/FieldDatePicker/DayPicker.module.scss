@@ -1,0 +1,104 @@
+@import '../../../styles/includes';
+
+.root {
+  display: block;
+  color: $c-tertiary;
+  background: $c-white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.280813);
+  border-radius: 4px;
+
+  --rdp-cell-size: 35px;
+  --rdp-background-color: #{$c-white};
+  --rdp-accent-color: #{$c-primary};
+  --rdp-outline: #{$c-tertiary};
+}
+
+.months {
+  padding: 20px 24px 24px;
+}
+
+.caption {
+  display: block;
+  text-align: center;
+  position: relative;
+  line-height: 32px;
+}
+
+.caption_label {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_button {
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+
+  &,
+  &:active:not([disabled]),
+  &:focus:not([disabled]) {
+    border: 1px solid $c-tertiary;
+  }
+
+  &:hover:not([disabled]),
+  &:focus:not([disabled]) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &[disabled] {
+    border-color: $c-quaternary-dark;
+  }
+}
+
+.head_cell {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  height: auto;
+  padding: 16px 0 13px;
+}
+
+.cell {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  height: calc(var(--rdp-cell-size) + 5px);
+}
+
+.day {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.day_selected:not([disabled]),
+.day_selected:focus:not([disabled]),
+.day_selected:active:not([disabled]),
+.day_selected:hover:not([disabled]) {
+  color: white;
+  background-color: var(--rdp-accent-color) !important;
+}
+
+.button:hover:not([disabled]) {
+  border-color: $c-tertiary;
+}
+
+.button[disabled] {
+  opacity: 1;
+  color: $c-quaternary-dark;
+}

@@ -1,0 +1,20 @@
+@import "styles/includes";
+
+.CheckboxControl {
+  width: 100%;
+}
+
+.Checkbox {
+  pointer-events: none;
+}
+
+.CheckboxGroup {
+  composes: Checkbox;
+  font-weight: 700;
+}
+
+.Checkbox__Field_focused,
+.OptionContainer:hover .Checkbox__Field:not(.Checkbox__Field_checked) {
+  border-color: $c-primary !important;
+}
+

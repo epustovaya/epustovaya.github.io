@@ -11,6 +11,7 @@ const Typography = <E extends HTMLParagraphElement>(props: TypographyProps) => {
     className,
     children,
     inheritedFont,
+    // @ts-ignore
     getRef,
     noPadding,
     noPaddingTop,

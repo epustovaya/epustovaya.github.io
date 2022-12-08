@@ -1,0 +1,51 @@
+@import 'styles/includes';
+
+.OptionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: $c-field;
+  font-size: 16px;
+  line-height: 24px;
+  transition: background-color $duration-fast;
+  padding: 9px 15px;
+
+  &_focused,
+  &_selected {
+    background-color: $c-quaternary;
+  }
+
+  &_disabled {
+    cursor: default;
+    color: change-color($c-tertiary, $alpha: 0.5);
+  }
+
+  &_iconRight {
+    flex-direction: row-reverse;
+  }
+
+  &_groupChild {
+    padding-left: 27px;
+  }
+}
+
+.OptionContainer__Icon {
+  height: 24px;
+  max-height: 24px;
+  width: auto;
+  font-size: 24px;
+  flex: 0 0 auto;
+  margin-right: 12px;
+
+  &_flag {
+    width: 32px;
+  }
+}
+
+.Divider {
+  height: 1px;
+  background-color: $c-grey;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

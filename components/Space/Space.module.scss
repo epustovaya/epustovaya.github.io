@@ -1,0 +1,63 @@
+@import '../../styles/includes';
+
+@each $breakpoint, $width in $display-breakpoints {
+  @media (min-width: $width) {
+    @each $gap-name, $gap-value in $space-values {
+      .t-#{$breakpoint}-#{$gap-name} {
+        padding-top: $gap-value;
+      }
+      .b-#{$breakpoint}-#{$gap-name} {
+        padding-bottom: $gap-value;
+      }
+      .l-#{$breakpoint}-#{$gap-name} {
+        padding-left: $gap-value;
+      }
+      .r-#{$breakpoint}-#{$gap-name} {
+        padding-right: $gap-value;
+      }
+    }
+  }
+}
+
+@each $breakpoint, $width in $display-breakpoints {
+  @media (min-width: $width) {
+    @each $space-name, $space-value in $space-values {
+      .mt-#{$breakpoint}-auto {
+        margin-top: auto;
+      }
+      .mb-#{$breakpoint}-auto {
+        margin-bottom: auto;
+      }
+      .ml-#{$breakpoint}-auto {
+        margin-left: auto;
+      }
+      .mr-#{$breakpoint}-auto {
+        margin-right: auto;
+      }
+      .mt-#{$breakpoint}-#{$space-name} {
+        margin-top: $space-value;
+      }
+      .mb-#{$breakpoint}-#{$space-name} {
+        margin-bottom: $space-value;
+      }
+      .ml-#{$breakpoint}-#{$space-name} {
+        margin-left: $space-value;
+      }
+      .mr-#{$breakpoint}-#{$space-name} {
+        margin-right: $space-value;
+      }
+      .mt-n-#{$breakpoint}-#{$space-name} {
+        margin-top: -$space-value;
+      }
+      .mb-n-#{$breakpoint}-#{$space-name} {
+        margin-bottom: -$space-value;
+      }
+      .ml-n-#{$breakpoint}-#{$space-name} {
+        margin-left: -$space-value;
+      }
+      .mr-n-#{$breakpoint}-#{$space-name} {
+        margin-right: -$space-value;
+      }
+    }
+  }
+}

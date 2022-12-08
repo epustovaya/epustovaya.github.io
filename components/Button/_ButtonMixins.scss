@@ -1,0 +1,352 @@
+$BTN_SIZES: ('l', 'm', 's', '32', 'secondary-32');
+$btnShadowOnHover: 0 2px 4px rgba(0, 0, 0, 0.25);
+
+/* SIZE */
+@mixin btnPrimarySize($size) {
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  @if $size == 'l' {
+    min-height: 52px;
+    padding: 13px 23px;
+    &::before {
+      width: 52px;
+      height: 52px;
+    }
+  }
+  @if $size == 'm' {
+    min-height: 42px;
+    padding: 8px 15px;
+    &::before {
+      width: 42px;
+      height: 42px;
+    }
+  }
+  @if $size == '32' {
+    min-height: 32px;
+    padding: 3px;
+    &::before {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+
+@function btnSecondarySizePaddingHorizontal($size) {
+  @if $size == 'l' {
+    @return 24px;
+  }
+  @if $size == 'm' {
+    @return 16px;
+  }
+  @if $size == 's' {
+    @return 8px;
+  }
+  @if $size == '32' or $size == 'secondary-32' {
+    @return 8px;
+  }
+}
+
+@mixin btnSecondarySize($size) {
+  font-size: 16px;
+  line-height: 24px;
+  @if $size == 'l' {
+    min-height: 52px;
+    padding: 14px 0;
+    &::before {
+      width: 52px;
+      height: 52px;
+    }
+  }
+  @if $size == 'm' {
+    min-height: 42px;
+    padding: 9px 0;
+    &::before {
+      width: 42px;
+      height: 42px;
+    }
+  }
+  @if $size == 's' {
+    min-height: 26px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 0;
+    &::before {
+      width: 26px;
+      height: 26px;
+    }
+  }
+  @if $size == 'secondary-32' {
+    min-height: 32px;
+    padding: 4px 0;
+    &::before {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+@mixin btnNoLabelSize($size) {
+  &::before {
+    width: 34px;
+    height: 34px;
+  }
+  @if $size == 'l' {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  @if $size == 'm' {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@mixin btnSize($variant) {
+  @each $breakpoint, $width in $display-breakpoints {
+    @media (min-width: $width) {
+      @each $btnSize in $BTN_SIZES {
+        &.Button_size_#{$breakpoint}_#{$btnSize} {
+          @if $variant == 'primary' {
+            @include btnPrimarySize($btnSize);
+          }
+          @if $variant == 'secondary' {
+            @include btnSecondarySize($btnSize);
+            &.Button_icon_after {
+              padding-right: btnSecondarySizePaddingHorizontal($btnSize);
+            }
+            &.Button_icon_before {
+              padding-left: btnSecondarySizePaddingHorizontal($btnSize);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @each $breakpoint, $width in $display-breakpoints {
+    @each $btnSize in $BTN_SIZES {
+      &.Button_size_#{$breakpoint}_#{$btnSize} {
+        &.Button_noLabel {
+          @media (min-width: $width) {
+            @include btnNoLabelSize($btnSize);
+          }
+        }
+
+        @each $breakpoint, $interval in $display-breakpoints-intervals {
+          @media (min-width: nth($interval, 1)) and (max-width: nth($interval, -1)) {
+            &.Button_noLabel_#{$breakpoint} {
+              @include btnNoLabelSize($btnSize);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* COLOR VARIANTS */
+@keyframes ripple {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@mixin btnAnimation {
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: scale(0);
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  &.animate {
+    &::before {
+      animation: ripple 0.4s;
+    }
+  }
+  & > * {
+    position: relative;
+  }
+}
+
+%btnTransition {
+  transition-property: color, background-color, border-color;
+  transition-duration: $duration-fast;
+}
+
+%btnIconTransition {
+  transition: all $duration-fast;
+}
+
+%btnPrimaryColorPrimary {
+  color: $c-white;
+  background-color: $c-primary;
+  border-color: $c-primary;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    background: $c-primary-dark;
+    border-color: $c-primary-dark;
+    box-shadow: $btnShadowOnHover;
+  }
+
+  &:disabled {
+    background-color: $c-primary;
+    border-color: $c-primary;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-primary;
+  }
+}
+
+%btnPrimaryColorPrimaryInverse {
+  color: $c-tertiary;
+  background-color: $c-white;
+  border-color: $c-white;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    color: $c-black;
+    background: $c-quaternary;
+    border-color: $c-quaternary;
+  }
+
+  &:disabled {
+    color: $c-tertiary;
+    background-color: $c-white;
+    border-color: $c-white;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-white;
+  }
+}
+
+%btnPrimaryColorAccent {
+  color: $c-tertiary;
+  background-color: $c-secondary;
+  border-color: $c-secondary;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    color: $c-tertiary-dark;
+    background: $c-secondary-dark;
+    border-color: $c-secondary-dark;
+    box-shadow: $btnShadowOnHover;
+  }
+
+  &:disabled {
+    color: $c-tertiary-dark;
+    background-color: $c-secondary;
+    border-color: $c-secondary;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-secondary;
+  }
+}
+
+%btnPrimaryColorOutline {
+  color: $c-tertiary;
+  border-color: $c-tertiary;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    background: $c-quaternary;
+  }
+
+  &:disabled {
+    background-color: transparent;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-white;
+  }
+}
+
+%btnPrimaryColorOutlineInverse {
+  color: $c-white;
+  border-color: $c-white;
+  background: transparent;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    background: change-color($c-white, $alpha: 0.25);
+  }
+
+  &:disabled {
+    background: transparent;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: change-color($c-white, $alpha: 0.25);
+  }
+}
+
+%btnPrimaryColorLight {
+  color: $c-tertiary;
+  border-color: $c-white;
+  background-color: $c-white;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    border-color: $c-black-hover;
+    background-color: $c-black-hover;
+  }
+
+  &:disabled {
+    background-color: $c-white;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-white;
+  }
+}
+
+%btnSecondaryColorPrimary {
+  color: $c-primary;
+  @extend %btnTransition;
+
+  &:focus,
+  &:hover {
+    color: $c-primary-dark;
+  }
+
+  &:disabled {
+    color: $c-primary;
+    opacity: 0.5;
+  }
+
+  &::before {
+    background-color: $c-black-hover;
+  }
+}

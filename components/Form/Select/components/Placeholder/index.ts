@@ -1,0 +1,1 @@
+export { placeholderStyles } from './Placeholder';

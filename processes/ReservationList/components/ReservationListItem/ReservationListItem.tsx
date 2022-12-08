@@ -30,6 +30,7 @@ export const ReservationListItem: FC<ReservationListItemProps> =
           <div className={clsx(classes.innerRow, classes.innerRow_first)}>
             {RESERVATION_LIST_COLUMNS_FIRST_ROW.map((column: Column) => {
               const { label, propName } = column;
+              // @ts-ignore
               const value = preparedItem[propName];
 
               return (
@@ -70,6 +71,7 @@ export const ReservationListItem: FC<ReservationListItemProps> =
           <div className={clsx(classes.innerRow, classes.innerRow_second)}>
             {RESERVATION_LIST_COLUMNS_SECOND_ROW.map((column: Column) => {
               const { propName, renderIcon, label } = column;
+              // @ts-ignore
               const value = preparedItem[propName];
 
               return (

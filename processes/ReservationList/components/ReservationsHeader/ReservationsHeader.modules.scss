@@ -1,0 +1,14 @@
+@import "styles/includes/index.scss";
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.title {
+  width: 100%;
+
+  @include atSmall {
+    width: auto;
+  }
+}
