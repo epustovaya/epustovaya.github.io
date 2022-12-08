@@ -43,7 +43,9 @@
   padding: 8px 0;
 
   &_status {
-    padding-right: 0;
+    padding: 0;
+    margin-right: 6px;
+    max-width: 120px;
   }
   &_price {
     text-align: right;
@@ -80,16 +82,17 @@
     &_email {
       width: 31.6%;
     }
-    &_rig{
+    &_rig {
       width: 8.8%;
       border-right: none;
     }
     &_status {
-      width: 47.3%;
+      padding: 0;
+      margin: 0 6px;
       border-right: none;
     }
     &_price {
-      width: 52.7%;
+      flex: 1;
       border-right: none;
     }
   }
@@ -109,9 +112,11 @@
     }
     &_name {
     }
-    &_phoneNumber {}
-    &_email {}
-    &_rig{
+    &_phoneNumber {
+    }
+    &_email {
+    }
+    &_rig {
     }
     &_status {
     }
@@ -131,9 +136,12 @@
     &_name {
       border-right: 1px solid $c-quaternary;
     }
-    &_phoneNumber {}
-    &_email {}
-    &_rig{}
+    &_phoneNumber {
+    }
+    &_email {
+    }
+    &_rig {
+    }
     &_status {
     }
     &_price {
@@ -185,7 +193,9 @@
   text-overflow: ellipsis;
   color: $c-tertiary;
 
-  &_name, &_phoneNumber, &_email {
+  &_name,
+  &_phoneNumber,
+  &_email {
     color: $c-primary;
   }
 
@@ -200,10 +210,6 @@
   &_name {
   }
   &_rig {
-  }
-  &_status {
-    width: 100px;
-    margin-right: 6px;
   }
   &_price {
     text-align: right;
@@ -225,10 +231,6 @@
     &_rig {
       display: none;
     }
-    &_status {
-      padding: 0;
-      margin: 8px 0;
-    }
     &_price {
     }
   }
@@ -241,12 +243,15 @@
 .reservationStatus {
   text-align: center;
   border-radius: 4px;
-  color: $c-white!important;
+  color: $c-white !important;
   background-color: $c-status-default;
   text-transform: uppercase;
+  margin: 8px 0;
+  padding: 0 8px !important;
 
-  &_paid, &_confirmed {
-background-color: $c-status-success;
+  &_paid,
+  &_confirmed {
+    background-color: $c-status-success;
   }
   &_canceled {
     background-color: $c-status-default;

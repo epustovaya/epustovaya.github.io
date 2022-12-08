@@ -24,6 +24,7 @@ export const ReservationListItem: FC<ReservationListItemProps> =
   memo<ReservationListItemProps>(
     ({ reservation }: ReservationListItemProps) => {
       const preparedItem = getColumnValues(reservation);
+      const { status, price } = preparedItem;
 
       return (
         <div className={classes.row}>
@@ -122,32 +123,30 @@ export const ReservationListItem: FC<ReservationListItemProps> =
             <div
               className={clsx(classes.innerRow, classes.innerRow_statusPrice)}
             >
-              {RESERVATION_LIST_COLUMNS_THIRD_ROW.map((column: Column) => {
-                const { propName } = column;
-                const value = preparedItem[propName];
-                const isStatus = propName === "status";
-
-                return (
-                  <div
-                    className={clsx(classes.col, classes[`col_${propName}`])}
-                  >
-                    <Typography
-                      noPadding
-                      weight={isStatus ? "normal" : "bold"}
-                      variant="body"
-                      size="l"
-                      className={clsx(
-                        classes.value,
-                        classes[`value_${propName}`],
-                        isStatus && classes.reservationStatus,
-                        isStatus && classes[`reservationStatus_${value}`]
-                      )}
-                    >
-                      {value}
-                    </Typography>
-                  </div>
-                );
-              })}
+              <div className={clsx(classes.col, classes.col_status)}>
+                <Typography
+                  noPadding
+                  variant="body"
+                  size="l"
+                  className={clsx(
+                    classes.reservationStatus,
+                    classes[`reservationStatus_${status}`]
+                  )}
+                >
+                  {status}
+                </Typography>
+              </div>
+              <div className={clsx(classes.col, classes.col_price)}>
+                <Typography
+                  noPadding
+                  weight="bold"
+                  variant="body"
+                  size="l"
+                  className={clsx(classes.value, classes.value_price)}
+                >
+                  {price}
+                </Typography>
+              </div>
             </div>
           </div>
         </div>
