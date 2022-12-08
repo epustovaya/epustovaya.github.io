@@ -10,8 +10,13 @@ import {
   RESERVATION_LIST_COLUMNS_SECOND_ROW,
   RESERVATION_LIST_COLUMNS_THIRD_ROW,
 } from "../../constants";
+import { IconSpecificProps } from "../../../../components/Icon/Icon.types";
 
-type Column = { propName: string; label: string; icon?: JSX.Element };
+type Column = {
+  propName: string;
+  label: string;
+  renderIcon?: (props?: IconSpecificProps) => JSX.Element;
+};
 type ReservationListItemProps = {
   reservation: Partial<Reservation>;
 };
@@ -61,11 +66,17 @@ export const ReservationListItem: FC<ReservationListItemProps> =
 
           <div className={classes.innerRow}>
             {RESERVATION_LIST_COLUMNS_SECOND_ROW.map((column: Column) => {
-              const { propName, icon, label } = column;
+              const { propName, renderIcon, label } = column;
               const value = preparedItem[propName];
 
               return (
-                <div className={clsx(classes.col, classes[`col_${propName}`])}>
+                <div
+                  className={clsx(
+                    classes.col,
+                    classes[`col_${propName}`],
+                    !value && classes.col_withoutBorder
+                  )}
+                >
                   <Typography
                     noPadding
                     variant="body"
@@ -79,14 +90,16 @@ export const ReservationListItem: FC<ReservationListItemProps> =
                   </Typography>
 
                   <div className={classes.valueWrapper}>
-                    <div
-                      className={clsx(
-                        classes.icon,
-                        classes[`icon_${propName}`]
-                      )}
-                    >
-                      {icon}
-                    </div>
+                    {value && (
+                      <div
+                        className={clsx(
+                          classes.icon,
+                          classes[`icon_${propName}`]
+                        )}
+                      >
+                        {renderIcon && renderIcon()}
+                      </div>
+                    )}
                     <Typography
                       noPadding
                       weight="bold"
@@ -103,35 +116,39 @@ export const ReservationListItem: FC<ReservationListItemProps> =
                 </div>
               );
             })}
-          </div>
 
-          <Divider className={classes.dividerMobile} />
+            <Divider className={classes.dividerMobile} />
 
-          <div className={clsx(classes.innerRow, classes.innerRow_statusPrice)}>
-            {RESERVATION_LIST_COLUMNS_THIRD_ROW.map((column: Column) => {
-              const { propName } = column;
-              const value = preparedItem[propName];
-              const isStatus = propName === "status";
+            <div
+              className={clsx(classes.innerRow, classes.innerRow_statusPrice)}
+            >
+              {RESERVATION_LIST_COLUMNS_THIRD_ROW.map((column: Column) => {
+                const { propName } = column;
+                const value = preparedItem[propName];
+                const isStatus = propName === "status";
 
-              return (
-                <div className={clsx(classes.col, classes[`col_${propName}`])}>
-                  <Typography
-                    noPadding
-                    weight={isStatus ? "normal" : "bold"}
-                    variant="body"
-                    size="l"
-                    className={clsx(
-                      classes.value,
-                      classes[`value_${propName}`],
-                      isStatus && classes.reservationStatus,
-                      isStatus && classes[`reservationStatus_${value}`]
-                    )}
+                return (
+                  <div
+                    className={clsx(classes.col, classes[`col_${propName}`])}
                   >
-                    {value}
-                  </Typography>
-                </div>
-              );
-            })}
+                    <Typography
+                      noPadding
+                      weight={isStatus ? "normal" : "bold"}
+                      variant="body"
+                      size="l"
+                      className={clsx(
+                        classes.value,
+                        classes[`value_${propName}`],
+                        isStatus && classes.reservationStatus,
+                        isStatus && classes[`reservationStatus_${value}`]
+                      )}
+                    >
+                      {value}
+                    </Typography>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       );

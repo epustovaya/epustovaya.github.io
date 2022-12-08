@@ -22,8 +22,10 @@
 
   &_statusPrice {
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding-bottom: 12px;
+    flex: 1;
 
     @include atSmall {
       padding-bottom: 0;
@@ -32,6 +34,7 @@
 
   @include atSmall {
     flex-direction: row;
+    align-items: center;
   }
 }
 
@@ -39,56 +42,63 @@
   display: flex;
   padding: 8px 0;
 
+  &_status {
+    padding-right: 0;
+  }
+  &_price {
+    text-align: right;
+  }
+
   @include atSmall {
     flex-direction: column;
     border-right: 1px solid $c-quaternary;
+    padding: 0 24px;
+
+    &_withoutBorder {
+      border: none;
+    }
+
+    &_id {
+      width: 14.2%;
+    }
+    &_site {
+      width: 10.8%;
+    }
+    &_type {
+      width: 22.9%;
+    }
+    &_dates {
+      width: 28.2%;
+    }
+    &_name {
+      width: 24.1%;
+      border-right: none;
+    }
+    &_phoneNumber {
+      width: 27.9%;
+    }
+    &_email {
+      width: 31.6%;
+    }
+    &_rig{
+      width: 8.8%;
+      border-right: none;
+    }
+    &_status {
+      width: 47.3%;
+      border-right: none;
+    }
+    &_price {
+      width: 52.7%;
+      border-right: none;
+    }
   }
 
   @include atMedium {
     align-items: center;
     flex-direction: row;
     width: calc(100% / 5);
-  }
 
-  &_id {
-  }
-  &_site {
-  }
-  &_type {
-  }
-  &_dates {
-  }
-  &_name {
-    border: none;
-
-    @include atLarge {
-      border-right: 1px solid $c-quaternary;
-    }
-  }
-
-  &_rig {
-    border: none;
-    display: none;
-
-    @include atLarge {
-      display: block;
-    }
-  }
-  &_status {
-    padding-right: 0;
-    border: none;
-  }
-  &_price {
-    text-align: right;
-    border-right: none;
-  }
-}
-
-.label {
-  color: $c-tertiary-light;
-  width: 106px;
-
-  @include atSmall {
     &_id {
     }
     &_site {
@@ -99,7 +109,63 @@
     }
     &_name {
     }
+    &_phoneNumber {}
+    &_email {}
+    &_rig{
+    }
+    &_status {
+    }
+    &_price {
+    }
+  }
+
+  @include atLarge {
+    &_id {
+    }
+    &_site {
+    }
+    &_type {
+    }
+    &_dates {
+    }
+    &_name {
+      border-right: 1px solid $c-quaternary;
+    }
+    &_phoneNumber {}
+    &_email {}
+    &_rig{}
+    &_status {
+    }
+    &_price {
+    }
+  }
+}
+
+.label {
+  color: $c-tertiary-light;
+  width: 106px;
+
+  @include atSmall {
+    padding-top: 8px;
+
+    &_id {
+    }
+    &_site {
+    }
+    &_type {
+    }
+    &_dates {
+    }
+    &_name {
+    }
+    &_phoneNumber {
+      display: none;
+    }
+    &_email {
+      display: none;
+    }
     &_rig {
+      display: none;
     }
     &_status {
     }
@@ -144,6 +210,8 @@
   }
 
   @include atSmall {
+    padding: 8px 0;
+
     &_id {
     }
     &_site {
@@ -155,12 +223,19 @@
     &_name {
     }
     &_rig {
+      display: none;
     }
     &_status {
+      padding: 0;
+      margin: 8px 0;
     }
     &_price {
     }
   }
+}
+
+.icon {
+  margin-right: 8px;
 }
 
 .reservationStatus {
@@ -192,6 +267,9 @@ background-color: $c-status-success;
 }
 .dividerLaptop {
   margin: 12px 0;
+  @include atSmall {
+    margin: 8px 0;
+  }
   @include atMedium {
     display: none;
   }

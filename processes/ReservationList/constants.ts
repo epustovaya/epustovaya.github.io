@@ -29,17 +29,17 @@ export const RESERVATION_LIST_COLUMNS_SECOND_ROW = [
   {
     propName: "phoneNumber",
     label: "Phone",
-    icon: IconPhone,
+    renderIcon: IconPhone,
   },
   {
     propName: "email",
     label: "Email",
-    icon: IconEmail,
+    renderIcon: IconEmail,
   },
   {
     propName: "rig",
     label: "Rig",
-    icon: IconRig,
+    renderIcon: IconRig,
   },
 ] as const;
 
